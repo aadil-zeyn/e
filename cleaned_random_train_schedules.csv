@@ -1,0 +1,1001 @@
+schedule_id,departure_station,arrival_station,train_operator,connection_id,departure_time,arrival_time,service_days_bitmap,legs
+1,Station H,Station J,SuperRail,conn_1,10:12 AM,01:32 PM,8,"['leg62', 'leg11', 'leg83']"
+2,Station A,Station I,SuperRail,conn_2,03:36 AM,10:06 AM,1,['leg40']
+3,Station E,Station B,TrainCo,conn_3,09:57 AM,01:45 PM,2,"['leg41', 'leg78', 'leg37']"
+4,Station J,Station E,SuperRail,conn_4,01:58 PM,05:38 PM,4,['leg88']
+5,Station H,Station G,TrainCo,conn_5,07:35 AM,01:39 PM,16,"['leg10', 'leg99']"
+6,Station D,Station G,TrainCo,conn_6,11:51 AM,05:31 PM,16,['leg36']
+7,Station I,Station A,FastTrack,conn_7,11:36 PM,06:15 AM,1,['leg64']
+8,Station C,Station J,ExpressLine,conn_8,10:36 AM,03:18 PM,8,"['leg85', 'leg50']"
+9,Station D,Station B,CityLink,conn_9,06:29 PM,08:57 PM,8,['leg98']
+10,Station F,Station I,FastTrack,conn_10,05:22 AM,08:35 AM,2,"['leg51', 'leg21']"
+11,Station F,Station H,FastTrack,conn_11,05:42 AM,09:49 AM,8,"['leg79', 'leg100']"
+12,Station G,Station E,SuperRail,conn_12,08:18 PM,11:10 PM,1,"['leg75', 'leg24']"
+13,Station A,Station C,FastTrack,conn_13,11:37 PM,02:45 AM,32,"['leg10', 'leg58', 'leg28']"
+14,Station I,Station A,ExpressLine,conn_14,07:13 AM,10:39 AM,2,"['leg30', 'leg48', 'leg88']"
+15,Station G,Station F,TrainCo,conn_15,09:57 PM,02:38 AM,32,"['leg8', 'leg10']"
+16,Station H,Station B,ExpressLine,conn_16,04:30 AM,07:51 AM,2,['leg91']
+17,Station F,Station J,ExpressLine,conn_17,02:06 PM,05:31 PM,1,"['leg89', 'leg92']"
+18,Station C,Station I,SuperRail,conn_18,03:48 PM,09:21 PM,64,"['leg78', 'leg71']"
+19,Station J,Station F,TrainCo,conn_19,08:42 PM,02:27 AM,1,"['leg48', 'leg89', 'leg63']"
+20,Station B,Station F,TrainCo,conn_20,05:34 AM,07:46 AM,16,"['leg8', 'leg41']"
+21,Station B,Station J,TrainCo,conn_21,09:41 PM,01:55 AM,1,"['leg79', 'leg31']"
+22,Station D,Station H,SuperRail,conn_22,04:20 PM,08:50 PM,64,"['leg80', 'leg73']"
+23,Station H,Station B,CityLink,conn_23,02:01 AM,08:08 AM,2,"['leg15', 'leg76', 'leg75']"
+24,Station A,Station F,ExpressLine,conn_24,02:02 AM,07:56 AM,32,"['leg74', 'leg28', 'leg53']"
+25,Station A,Station E,CityLink,conn_25,06:56 PM,12:59 AM,4,['leg27']
+26,Station J,Station B,FastTrack,conn_26,06:47 AM,09:06 AM,8,"['leg45', 'leg61', 'leg52']"
+27,Station B,Station C,CityLink,conn_27,01:43 AM,03:46 AM,16,"['leg14', 'leg4', 'leg53']"
+28,Station C,Station F,FastTrack,conn_28,11:10 AM,04:50 PM,64,['leg74']
+29,Station H,Station A,TrainCo,conn_29,08:44 AM,12:36 PM,2,['leg97']
+30,Station A,Station J,FastTrack,conn_30,10:04 AM,03:55 PM,8,"['leg34', 'leg59', 'leg39']"
+31,Station C,Station A,ExpressLine,conn_31,09:32 AM,03:52 PM,32,"['leg51', 'leg71', 'leg57']"
+32,Station D,Station C,FastTrack,conn_32,01:42 AM,07:37 AM,4,"['leg90', 'leg10']"
+33,Station H,Station F,CityLink,conn_33,06:27 PM,12:45 AM,2,"['leg6', 'leg86']"
+34,Station D,Station G,SuperRail,conn_34,01:26 PM,06:02 PM,32,['leg81']
+35,Station G,Station F,FastTrack,conn_35,07:21 AM,10:22 AM,2,"['leg52', 'leg91']"
+36,Station F,Station C,CityLink,conn_36,07:27 PM,09:51 PM,64,"['leg3', 'leg51']"
+37,Station F,Station A,CityLink,conn_37,04:11 AM,10:35 AM,8,"['leg99', 'leg60', 'leg21']"
+38,Station E,Station C,SuperRail,conn_38,02:50 AM,06:17 AM,1,"['leg17', 'leg46']"
+39,Station G,Station F,TrainCo,conn_39,02:15 AM,06:21 AM,16,['leg18']
+40,Station D,Station C,SuperRail,conn_40,11:57 AM,05:27 PM,8,"['leg45', 'leg47', 'leg16']"
+41,Station B,Station H,SuperRail,conn_41,05:00 AM,07:04 AM,64,"['leg31', 'leg44']"
+42,Station G,Station F,CityLink,conn_42,07:40 PM,01:11 AM,2,"['leg82', 'leg71', 'leg51']"
+43,Station C,Station A,TrainCo,conn_43,12:17 PM,02:51 PM,1,"['leg64', 'leg45']"
+44,Station J,Station H,ExpressLine,conn_44,12:21 AM,06:48 AM,2,"['leg84', 'leg73']"
+45,Station C,Station I,ExpressLine,conn_45,03:24 PM,09:22 PM,64,"['leg24', 'leg74', 'leg42']"
+46,Station J,Station C,SuperRail,conn_46,03:36 PM,07:29 PM,32,"['leg16', 'leg81']"
+47,Station C,Station G,TrainCo,conn_47,06:53 PM,10:51 PM,16,['leg69']
+48,Station G,Station I,FastTrack,conn_48,07:23 PM,12:56 AM,1,['leg96']
+49,Station B,Station D,CityLink,conn_49,04:26 PM,11:07 PM,4,"['leg63', 'leg25', 'leg9']"
+50,Station B,Station E,CityLink,conn_50,09:59 AM,04:58 PM,4,['leg83']
+51,Station B,Station G,TrainCo,conn_51,06:04 PM,11:12 PM,32,"['leg48', 'leg11', 'leg45']"
+52,Station A,Station B,CityLink,conn_52,02:09 PM,04:54 PM,2,['leg83']
+53,Station G,Station H,TrainCo,conn_53,11:52 AM,02:43 PM,32,"['leg27', 'leg42']"
+54,Station J,Station H,FastTrack,conn_54,12:57 AM,05:47 AM,8,['leg29']
+55,Station B,Station D,ExpressLine,conn_55,03:15 AM,08:08 AM,1,"['leg44', 'leg28']"
+56,Station E,Station G,CityLink,conn_56,11:52 AM,04:04 PM,1,['leg36']
+57,Station A,Station J,TrainCo,conn_57,04:30 PM,08:38 PM,32,"['leg54', 'leg87', 'leg81']"
+58,Station H,Station A,ExpressLine,conn_58,09:31 PM,12:09 AM,64,['leg71']
+59,Station D,Station F,TrainCo,conn_59,08:16 AM,01:32 PM,2,['leg48']
+60,Station A,Station B,SuperRail,conn_60,04:12 PM,08:51 PM,16,"['leg21', 'leg40', 'leg67']"
+61,Station E,Station G,SuperRail,conn_61,03:33 PM,09:48 PM,1,"['leg37', 'leg93']"
+62,Station J,Station E,CityLink,conn_62,02:18 AM,05:25 AM,16,['leg95']
+63,Station A,Station E,TrainCo,conn_63,09:22 AM,11:30 AM,4,['leg85']
+64,Station B,Station A,SuperRail,conn_64,03:17 PM,08:30 PM,64,['leg14']
+65,Station I,Station G,CityLink,conn_65,01:28 PM,04:02 PM,1,['leg91']
+66,Station C,Station J,FastTrack,conn_66,03:40 PM,08:17 PM,2,"['leg73', 'leg67', 'leg39']"
+67,Station I,Station G,CityLink,conn_67,05:08 AM,07:36 AM,64,"['leg92', 'leg46']"
+68,Station E,Station I,SuperRail,conn_68,08:40 PM,11:26 PM,1,"['leg56', 'leg60', 'leg69']"
+69,Station I,Station C,ExpressLine,conn_69,05:44 PM,10:24 PM,16,"['leg61', 'leg12']"
+70,Station D,Station G,ExpressLine,conn_70,07:14 AM,10:56 AM,1,"['leg78', 'leg37', 'leg94']"
+71,Station C,Station J,SuperRail,conn_71,08:31 AM,02:12 PM,2,['leg51']
+72,Station H,Station I,SuperRail,conn_72,11:01 AM,05:44 PM,8,['leg43']
+73,Station G,Station A,ExpressLine,conn_73,03:13 PM,07:11 PM,32,"['leg84', 'leg99', 'leg54']"
+74,Station I,Station J,ExpressLine,conn_74,02:21 AM,06:05 AM,4,['leg8']
+75,Station B,Station F,FastTrack,conn_75,03:23 PM,06:49 PM,16,"['leg57', 'leg66', 'leg54']"
+76,Station I,Station D,ExpressLine,conn_76,05:34 AM,12:13 PM,4,"['leg66', 'leg77', 'leg16']"
+77,Station C,Station J,FastTrack,conn_77,04:00 AM,06:36 AM,1,"['leg34', 'leg15']"
+78,Station A,Station D,SuperRail,conn_78,01:50 AM,07:13 AM,4,"['leg6', 'leg100']"
+79,Station H,Station I,ExpressLine,conn_79,03:09 PM,06:54 PM,32,['leg84']
+80,Station C,Station E,ExpressLine,conn_80,01:26 AM,07:39 AM,64,['leg81']
+81,Station A,Station F,SuperRail,conn_81,02:35 PM,07:09 PM,1,"['leg69', 'leg59']"
+82,Station D,Station I,CityLink,conn_82,09:34 AM,04:18 PM,8,"['leg57', 'leg90']"
+83,Station D,Station I,FastTrack,conn_83,04:00 AM,08:18 AM,16,['leg49']
+84,Station B,Station F,SuperRail,conn_84,10:35 AM,04:53 PM,16,"['leg43', 'leg84', 'leg78']"
+85,Station I,Station C,ExpressLine,conn_85,03:04 PM,09:41 PM,2,"['leg41', 'leg8', 'leg54']"
+86,Station F,Station E,SuperRail,conn_86,05:41 AM,07:41 AM,2,"['leg2', 'leg67']"
+87,Station C,Station H,FastTrack,conn_87,09:35 AM,02:39 PM,32,"['leg19', 'leg86', 'leg73']"
+88,Station G,Station I,FastTrack,conn_88,06:43 PM,12:48 AM,32,['leg1']
+89,Station C,Station A,ExpressLine,conn_89,01:28 AM,04:53 AM,16,"['leg12', 'leg19']"
+90,Station H,Station J,SuperRail,conn_90,04:31 PM,10:54 PM,8,['leg10']
+91,Station F,Station H,TrainCo,conn_91,05:16 AM,09:45 AM,4,"['leg14', 'leg6', 'leg99']"
+92,Station H,Station C,TrainCo,conn_92,07:53 AM,01:43 PM,1,['leg63']
+93,Station F,Station B,FastTrack,conn_93,05:50 PM,08:18 PM,32,"['leg91', 'leg89', 'leg54']"
+94,Station I,Station G,TrainCo,conn_94,10:40 AM,02:50 PM,32,"['leg18', 'leg66']"
+95,Station H,Station I,FastTrack,conn_95,04:24 AM,07:16 AM,2,"['leg21', 'leg29']"
+96,Station E,Station B,CityLink,conn_96,09:20 AM,03:39 PM,16,['leg39']
+97,Station G,Station F,CityLink,conn_97,03:27 PM,07:52 PM,4,"['leg10', 'leg91', 'leg1']"
+98,Station E,Station D,CityLink,conn_98,08:49 AM,11:10 AM,2,['leg33']
+99,Station B,Station G,CityLink,conn_99,07:12 PM,12:14 AM,8,['leg94']
+100,Station D,Station G,ExpressLine,conn_100,03:30 AM,06:47 AM,4,"['leg24', 'leg23', 'leg57']"
+101,Station E,Station F,CityLink,conn_101,01:08 PM,07:12 PM,16,['leg75']
+102,Station G,Station B,FastTrack,conn_102,11:26 PM,01:35 AM,8,"['leg1', 'leg68', 'leg32']"
+103,Station B,Station E,CityLink,conn_103,11:51 PM,03:13 AM,8,"['leg83', 'leg93']"
+104,Station A,Station G,SuperRail,conn_104,05:46 AM,07:54 AM,64,"['leg36', 'leg52', 'leg92']"
+105,Station C,Station J,CityLink,conn_105,10:47 PM,03:21 AM,4,"['leg26', 'leg79', 'leg61']"
+106,Station A,Station D,ExpressLine,conn_106,11:35 AM,02:37 PM,2,['leg94']
+107,Station J,Station H,SuperRail,conn_107,07:19 PM,10:23 PM,1,"['leg66', 'leg27', 'leg63']"
+108,Station E,Station G,CityLink,conn_108,11:24 AM,06:22 PM,8,"['leg18', 'leg8', 'leg43']"
+109,Station G,Station J,CityLink,conn_109,10:32 AM,04:47 PM,8,"['leg56', 'leg77']"
+110,Station E,Station I,CityLink,conn_110,02:31 PM,06:12 PM,32,"['leg39', 'leg37']"
+111,Station C,Station B,CityLink,conn_111,09:17 PM,11:52 PM,4,['leg21']
+112,Station E,Station F,TrainCo,conn_112,06:25 AM,09:02 AM,32,"['leg40', 'leg29', 'leg100']"
+113,Station I,Station G,SuperRail,conn_113,12:31 AM,04:41 AM,16,"['leg78', 'leg48']"
+114,Station G,Station E,ExpressLine,conn_114,02:46 AM,06:41 AM,2,"['leg65', 'leg30', 'leg85']"
+115,Station D,Station G,FastTrack,conn_115,11:37 AM,02:14 PM,16,"['leg25', 'leg43', 'leg28']"
+116,Station B,Station I,TrainCo,conn_116,01:49 PM,07:11 PM,4,"['leg85', 'leg92', 'leg12']"
+117,Station B,Station E,CityLink,conn_117,10:14 AM,03:43 PM,32,['leg3']
+118,Station H,Station C,TrainCo,conn_118,02:38 AM,07:07 AM,2,"['leg55', 'leg84', 'leg63']"
+119,Station J,Station D,ExpressLine,conn_119,02:17 PM,07:34 PM,16,"['leg20', 'leg52', 'leg69']"
+120,Station I,Station A,SuperRail,conn_120,11:56 AM,02:27 PM,16,['leg80']
+121,Station J,Station C,ExpressLine,conn_121,10:51 PM,04:21 AM,64,"['leg5', 'leg16', 'leg42']"
+122,Station B,Station G,ExpressLine,conn_122,04:18 AM,11:06 AM,64,"['leg100', 'leg23']"
+123,Station D,Station F,CityLink,conn_123,02:53 AM,09:30 AM,1,['leg11']
+124,Station J,Station D,ExpressLine,conn_124,05:14 AM,09:27 AM,8,"['leg66', 'leg51', 'leg52']"
+125,Station B,Station H,ExpressLine,conn_125,09:24 AM,03:46 PM,8,"['leg69', 'leg83']"
+126,Station J,Station E,ExpressLine,conn_126,05:11 AM,10:51 AM,2,"['leg99', 'leg57', 'leg17']"
+127,Station D,Station C,TrainCo,conn_127,12:42 PM,03:24 PM,16,"['leg38', 'leg9', 'leg28']"
+128,Station C,Station G,FastTrack,conn_128,08:59 AM,11:05 AM,64,"['leg3', 'leg33', 'leg94']"
+129,Station B,Station A,TrainCo,conn_129,09:26 PM,03:30 AM,16,"['leg10', 'leg98']"
+130,Station E,Station B,ExpressLine,conn_130,04:36 AM,11:02 AM,2,"['leg39', 'leg61', 'leg46']"
+131,Station D,Station C,CityLink,conn_131,08:01 AM,01:14 PM,2,"['leg35', 'leg73']"
+132,Station F,Station C,CityLink,conn_132,09:59 PM,03:26 AM,1,"['leg8', 'leg97']"
+133,Station A,Station G,FastTrack,conn_133,06:30 AM,11:25 AM,2,"['leg51', 'leg90', 'leg50']"
+134,Station D,Station A,ExpressLine,conn_134,03:36 AM,07:32 AM,2,"['leg49', 'leg12', 'leg9']"
+135,Station H,Station E,FastTrack,conn_135,12:24 AM,03:19 AM,16,"['leg68', 'leg65']"
+136,Station D,Station C,SuperRail,conn_136,04:09 AM,11:03 AM,8,"['leg7', 'leg41', 'leg12']"
+137,Station J,Station E,TrainCo,conn_137,04:20 PM,06:46 PM,4,"['leg69', 'leg40', 'leg99']"
+138,Station J,Station E,CityLink,conn_138,08:42 AM,02:05 PM,32,"['leg95', 'leg46']"
+139,Station E,Station H,SuperRail,conn_139,03:17 AM,06:21 AM,16,"['leg99', 'leg73']"
+140,Station F,Station H,FastTrack,conn_140,10:27 PM,02:14 AM,32,['leg89']
+141,Station D,Station F,ExpressLine,conn_141,08:52 PM,11:26 PM,2,"['leg50', 'leg59', 'leg75']"
+142,Station B,Station I,TrainCo,conn_142,11:04 AM,01:11 PM,2,['leg69']
+143,Station G,Station D,TrainCo,conn_143,12:52 AM,06:04 AM,8,"['leg85', 'leg64', 'leg71']"
+144,Station E,Station D,CityLink,conn_144,11:29 AM,05:53 PM,32,"['leg67', 'leg85']"
+145,Station J,Station I,CityLink,conn_145,04:41 PM,07:57 PM,4,['leg39']
+146,Station B,Station F,FastTrack,conn_146,03:42 AM,08:06 AM,16,"['leg45', 'leg78', 'leg75']"
+147,Station I,Station G,ExpressLine,conn_147,08:11 PM,01:32 AM,8,"['leg68', 'leg79']"
+148,Station J,Station A,CityLink,conn_148,03:57 PM,07:35 PM,1,"['leg74', 'leg82', 'leg50']"
+149,Station E,Station F,CityLink,conn_149,12:38 PM,03:23 PM,4,"['leg13', 'leg16', 'leg32']"
+150,Station F,Station J,TrainCo,conn_150,12:32 AM,04:19 AM,1,['leg58']
+151,Station D,Station H,FastTrack,conn_151,02:18 AM,04:42 AM,2,"['leg29', 'leg55', 'leg4']"
+152,Station H,Station F,CityLink,conn_152,07:21 AM,12:53 PM,64,"['leg76', 'leg65']"
+153,Station I,Station H,SuperRail,conn_153,03:44 AM,06:35 AM,64,"['leg26', 'leg14']"
+154,Station A,Station G,FastTrack,conn_154,08:26 PM,02:03 AM,64,"['leg38', 'leg18', 'leg35']"
+155,Station J,Station A,FastTrack,conn_155,03:05 AM,05:42 AM,32,"['leg32', 'leg69', 'leg73']"
+156,Station H,Station A,FastTrack,conn_156,05:34 PM,08:52 PM,8,['leg92']
+157,Station C,Station D,ExpressLine,conn_157,10:11 PM,02:23 AM,1,"['leg48', 'leg61', 'leg92']"
+158,Station F,Station B,SuperRail,conn_158,03:04 PM,05:33 PM,2,"['leg88', 'leg92', 'leg44']"
+159,Station I,Station C,CityLink,conn_159,03:17 AM,07:53 AM,64,"['leg48', 'leg2']"
+160,Station B,Station H,FastTrack,conn_160,04:51 AM,07:09 AM,16,"['leg39', 'leg98', 'leg13']"
+161,Station I,Station D,TrainCo,conn_161,02:41 PM,05:43 PM,8,"['leg88', 'leg4', 'leg99']"
+162,Station G,Station B,ExpressLine,conn_162,03:32 AM,08:06 AM,8,['leg87']
+163,Station G,Station A,TrainCo,conn_163,08:41 AM,02:33 PM,64,"['leg59', 'leg65', 'leg25']"
+164,Station A,Station C,TrainCo,conn_164,01:09 AM,05:35 AM,2,['leg53']
+165,Station D,Station B,SuperRail,conn_165,10:11 AM,02:12 PM,2,"['leg37', 'leg56']"
+166,Station B,Station H,SuperRail,conn_166,12:13 PM,05:25 PM,4,['leg69']
+167,Station J,Station C,TrainCo,conn_167,01:18 PM,07:02 PM,2,"['leg57', 'leg69']"
+168,Station H,Station I,TrainCo,conn_168,09:43 AM,02:57 PM,4,"['leg5', 'leg52', 'leg53']"
+169,Station D,Station I,CityLink,conn_169,07:03 PM,11:14 PM,32,"['leg47', 'leg38']"
+170,Station F,Station G,SuperRail,conn_170,05:10 AM,07:29 AM,2,"['leg11', 'leg80']"
+171,Station J,Station D,FastTrack,conn_171,05:31 AM,08:57 AM,64,"['leg92', 'leg81', 'leg64']"
+172,Station J,Station B,SuperRail,conn_172,03:02 PM,06:03 PM,1,"['leg35', 'leg73', 'leg16']"
+173,Station F,Station E,FastTrack,conn_173,06:05 PM,01:04 AM,1,"['leg24', 'leg33']"
+174,Station C,Station D,ExpressLine,conn_174,04:38 PM,06:47 PM,8,"['leg73', 'leg63', 'leg70']"
+175,Station J,Station G,CityLink,conn_175,10:02 AM,01:00 PM,32,"['leg95', 'leg93', 'leg36']"
+176,Station J,Station F,TrainCo,conn_176,05:37 PM,11:03 PM,32,['leg92']
+177,Station F,Station I,ExpressLine,conn_177,05:41 PM,08:04 PM,1,"['leg43', 'leg41', 'leg56']"
+178,Station C,Station A,ExpressLine,conn_178,02:31 PM,09:14 PM,8,"['leg55', 'leg49']"
+179,Station C,Station H,FastTrack,conn_179,12:33 AM,05:57 AM,32,['leg10']
+180,Station G,Station C,SuperRail,conn_180,05:42 PM,09:33 PM,1,"['leg39', 'leg54', 'leg84']"
+181,Station A,Station J,CityLink,conn_181,07:16 PM,01:29 AM,4,"['leg69', 'leg53']"
+182,Station C,Station J,FastTrack,conn_182,06:22 AM,08:23 AM,32,['leg23']
+183,Station A,Station I,CityLink,conn_183,03:33 AM,08:55 AM,32,['leg89']
+184,Station D,Station I,TrainCo,conn_184,01:24 PM,07:16 PM,64,"['leg14', 'leg37', 'leg87']"
+185,Station J,Station H,CityLink,conn_185,06:43 PM,12:19 AM,64,['leg67']
+186,Station F,Station E,CityLink,conn_186,07:03 AM,10:47 AM,8,['leg100']
+187,Station I,Station A,TrainCo,conn_187,05:31 PM,10:41 PM,8,['leg48']
+188,Station D,Station E,SuperRail,conn_188,10:32 AM,04:57 PM,4,"['leg74', 'leg18']"
+189,Station H,Station E,FastTrack,conn_189,08:29 AM,02:50 PM,32,"['leg19', 'leg91', 'leg57']"
+190,Station C,Station H,SuperRail,conn_190,03:22 AM,10:07 AM,8,['leg4']
+191,Station H,Station E,SuperRail,conn_191,09:30 PM,01:08 AM,16,"['leg61', 'leg91', 'leg9']"
+192,Station I,Station F,SuperRail,conn_192,08:18 AM,01:28 PM,1,"['leg14', 'leg83']"
+193,Station F,Station C,SuperRail,conn_193,02:52 AM,09:08 AM,4,"['leg43', 'leg75']"
+194,Station F,Station E,SuperRail,conn_194,09:44 PM,04:20 AM,4,"['leg19', 'leg77', 'leg17']"
+195,Station H,Station B,FastTrack,conn_195,06:39 AM,12:01 PM,4,"['leg21', 'leg87', 'leg91']"
+196,Station C,Station E,SuperRail,conn_196,08:03 PM,10:52 PM,16,"['leg80', 'leg85', 'leg29']"
+197,Station H,Station F,FastTrack,conn_197,05:50 AM,10:57 AM,64,"['leg15', 'leg13']"
+198,Station B,Station G,ExpressLine,conn_198,02:48 AM,06:29 AM,8,['leg5']
+199,Station E,Station H,SuperRail,conn_199,05:49 AM,11:59 AM,64,"['leg48', 'leg54', 'leg42']"
+200,Station F,Station H,FastTrack,conn_200,12:41 AM,04:27 AM,64,"['leg37', 'leg15', 'leg51']"
+201,Station A,Station E,FastTrack,conn_201,02:29 PM,06:27 PM,4,['leg6']
+202,Station E,Station G,ExpressLine,conn_202,12:25 AM,05:45 AM,8,"['leg17', 'leg75']"
+203,Station B,Station C,FastTrack,conn_203,03:36 AM,10:17 AM,32,['leg81']
+204,Station E,Station C,FastTrack,conn_204,08:08 AM,01:31 PM,2,"['leg97', 'leg53']"
+205,Station E,Station D,SuperRail,conn_205,02:18 AM,05:18 AM,32,"['leg93', 'leg97', 'leg81']"
+206,Station G,Station H,TrainCo,conn_206,05:53 PM,08:18 PM,1,"['leg39', 'leg90', 'leg1']"
+207,Station B,Station H,FastTrack,conn_207,05:52 PM,11:26 PM,16,"['leg79', 'leg43', 'leg62']"
+208,Station F,Station J,TrainCo,conn_208,07:36 AM,02:16 PM,1,"['leg35', 'leg16']"
+209,Station G,Station C,TrainCo,conn_209,10:12 AM,12:49 PM,8,"['leg71', 'leg57']"
+210,Station G,Station A,CityLink,conn_210,10:23 PM,02:36 AM,8,['leg95']
+211,Station I,Station F,TrainCo,conn_211,03:34 PM,08:04 PM,64,"['leg98', 'leg89']"
+212,Station J,Station I,FastTrack,conn_212,02:39 PM,08:34 PM,16,"['leg86', 'leg78']"
+213,Station E,Station I,ExpressLine,conn_213,10:04 AM,01:58 PM,1,"['leg68', 'leg80']"
+214,Station J,Station C,TrainCo,conn_214,02:54 AM,08:22 AM,16,"['leg88', 'leg30', 'leg53']"
+215,Station C,Station G,ExpressLine,conn_215,09:08 PM,03:51 AM,64,"['leg46', 'leg69']"
+216,Station H,Station I,FastTrack,conn_216,01:24 PM,05:58 PM,32,"['leg28', 'leg19', 'leg17']"
+217,Station C,Station G,TrainCo,conn_217,08:57 AM,01:17 PM,32,"['leg13', 'leg14']"
+218,Station F,Station J,SuperRail,conn_218,11:05 AM,01:21 PM,16,"['leg66', 'leg38', 'leg20']"
+219,Station A,Station H,ExpressLine,conn_219,03:52 PM,08:40 PM,8,"['leg99', 'leg17', 'leg1']"
+220,Station D,Station A,FastTrack,conn_220,07:12 PM,12:57 AM,4,"['leg57', 'leg16']"
+221,Station J,Station E,ExpressLine,conn_221,10:19 AM,01:59 PM,64,['leg26']
+222,Station E,Station H,FastTrack,conn_222,04:58 AM,11:27 AM,4,"['leg57', 'leg26', 'leg5']"
+223,Station A,Station B,FastTrack,conn_223,04:01 AM,07:07 AM,64,"['leg62', 'leg63', 'leg6']"
+224,Station F,Station J,FastTrack,conn_224,02:00 AM,06:51 AM,4,"['leg53', 'leg52']"
+225,Station I,Station C,CityLink,conn_225,10:55 AM,02:42 PM,32,"['leg55', 'leg76']"
+226,Station E,Station I,FastTrack,conn_226,12:44 AM,03:10 AM,32,"['leg89', 'leg66']"
+227,Station H,Station F,FastTrack,conn_227,08:31 PM,12:40 AM,8,['leg53']
+228,Station I,Station A,FastTrack,conn_228,07:01 PM,01:43 AM,2,"['leg69', 'leg30', 'leg13']"
+229,Station B,Station I,TrainCo,conn_229,09:42 PM,12:23 AM,64,['leg34']
+230,Station J,Station C,SuperRail,conn_230,09:59 AM,02:01 PM,8,['leg4']
+231,Station A,Station I,FastTrack,conn_231,08:26 PM,03:10 AM,32,"['leg43', 'leg68', 'leg83']"
+232,Station H,Station I,CityLink,conn_232,05:16 PM,11:35 PM,16,"['leg39', 'leg46']"
+233,Station D,Station I,ExpressLine,conn_233,11:03 AM,01:45 PM,64,"['leg13', 'leg12', 'leg100']"
+234,Station D,Station C,SuperRail,conn_234,08:14 PM,12:01 AM,8,['leg73']
+235,Station B,Station C,CityLink,conn_235,11:13 AM,02:49 PM,64,"['leg38', 'leg31', 'leg59']"
+236,Station F,Station E,FastTrack,conn_236,02:44 PM,06:23 PM,16,['leg52']
+237,Station J,Station F,TrainCo,conn_237,01:44 PM,04:50 PM,32,"['leg37', 'leg83']"
+238,Station G,Station J,CityLink,conn_238,03:39 PM,07:11 PM,4,"['leg3', 'leg4', 'leg91']"
+239,Station G,Station F,FastTrack,conn_239,01:44 AM,08:35 AM,32,"['leg93', 'leg57', 'leg99']"
+240,Station C,Station G,TrainCo,conn_240,03:38 AM,06:54 AM,8,"['leg56', 'leg23']"
+241,Station I,Station H,CityLink,conn_241,10:41 PM,12:55 AM,64,"['leg80', 'leg27', 'leg45']"
+242,Station G,Station A,FastTrack,conn_242,10:13 AM,12:30 PM,8,['leg89']
+243,Station G,Station B,ExpressLine,conn_243,02:26 AM,05:43 AM,4,"['leg45', 'leg92', 'leg32']"
+244,Station B,Station F,ExpressLine,conn_244,04:10 AM,06:55 AM,4,"['leg24', 'leg38']"
+245,Station F,Station G,SuperRail,conn_245,03:34 AM,10:08 AM,32,"['leg34', 'leg41', 'leg49']"
+246,Station F,Station G,TrainCo,conn_246,08:37 AM,11:34 AM,1,"['leg55', 'leg13', 'leg44']"
+247,Station F,Station G,TrainCo,conn_247,04:42 AM,10:10 AM,2,"['leg31', 'leg23', 'leg61']"
+248,Station C,Station B,ExpressLine,conn_248,10:11 AM,01:17 PM,4,['leg60']
+249,Station F,Station A,FastTrack,conn_249,11:47 AM,03:50 PM,32,"['leg10', 'leg92', 'leg25']"
+250,Station C,Station F,TrainCo,conn_250,09:11 AM,03:02 PM,2,['leg12']
+251,Station I,Station A,ExpressLine,conn_251,11:08 AM,05:51 PM,1,"['leg77', 'leg59']"
+252,Station C,Station A,TrainCo,conn_252,08:34 AM,11:52 AM,1,"['leg50', 'leg51']"
+253,Station A,Station C,ExpressLine,conn_253,12:21 AM,04:11 AM,32,"['leg16', 'leg81', 'leg20']"
+254,Station C,Station J,CityLink,conn_254,07:30 PM,01:15 AM,8,"['leg84', 'leg81', 'leg20']"
+255,Station I,Station B,TrainCo,conn_255,05:25 AM,10:30 AM,32,['leg43']
+256,Station I,Station F,SuperRail,conn_256,11:41 PM,05:45 AM,1,['leg98']
+257,Station B,Station C,SuperRail,conn_257,11:27 AM,02:34 PM,16,"['leg63', 'leg36', 'leg37']"
+258,Station H,Station I,FastTrack,conn_258,09:33 AM,12:26 PM,4,"['leg1', 'leg89', 'leg49']"
+259,Station C,Station A,SuperRail,conn_259,05:29 PM,09:52 PM,16,"['leg75', 'leg34', 'leg22']"
+260,Station B,Station F,SuperRail,conn_260,03:58 PM,10:29 PM,4,"['leg8', 'leg16']"
+261,Station I,Station G,SuperRail,conn_261,03:58 PM,07:19 PM,32,"['leg79', 'leg98']"
+262,Station B,Station J,ExpressLine,conn_262,07:22 PM,12:11 AM,16,"['leg80', 'leg99', 'leg53']"
+263,Station H,Station A,ExpressLine,conn_263,02:23 PM,09:10 PM,1,"['leg55', 'leg35']"
+264,Station F,Station B,FastTrack,conn_264,04:31 AM,07:54 AM,4,"['leg19', 'leg79', 'leg7']"
+265,Station A,Station I,SuperRail,conn_265,02:04 PM,07:02 PM,1,['leg58']
+266,Station H,Station D,ExpressLine,conn_266,01:39 PM,04:57 PM,8,['leg37']
+267,Station J,Station I,TrainCo,conn_267,06:32 AM,09:02 AM,8,"['leg77', 'leg100']"
+268,Station C,Station F,ExpressLine,conn_268,09:23 AM,01:41 PM,32,"['leg14', 'leg60']"
+269,Station D,Station J,TrainCo,conn_269,10:08 AM,01:55 PM,8,['leg43']
+270,Station J,Station D,TrainCo,conn_270,02:16 AM,08:51 AM,1,['leg32']
+271,Station F,Station D,CityLink,conn_271,06:27 AM,01:03 PM,1,"['leg67', 'leg1', 'leg17']"
+272,Station E,Station A,FastTrack,conn_272,01:55 PM,05:05 PM,8,"['leg83', 'leg37', 'leg46']"
+273,Station C,Station B,SuperRail,conn_273,02:42 AM,09:28 AM,4,"['leg80', 'leg95', 'leg12']"
+274,Station F,Station B,FastTrack,conn_274,07:53 PM,10:48 PM,4,['leg54']
+275,Station H,Station F,ExpressLine,conn_275,01:11 AM,06:04 AM,2,['leg58']
+276,Station G,Station H,TrainCo,conn_276,06:27 AM,09:21 AM,2,"['leg39', 'leg93', 'leg34']"
+277,Station A,Station G,CityLink,conn_277,12:34 AM,03:15 AM,1,"['leg24', 'leg41']"
+278,Station A,Station F,ExpressLine,conn_278,10:39 AM,02:54 PM,16,"['leg74', 'leg20', 'leg39']"
+279,Station A,Station H,TrainCo,conn_279,02:22 AM,09:01 AM,32,"['leg54', 'leg73']"
+280,Station A,Station D,SuperRail,conn_280,06:40 AM,01:35 PM,64,"['leg17', 'leg77']"
+281,Station C,Station H,ExpressLine,conn_281,09:56 AM,01:34 PM,2,"['leg3', 'leg17']"
+282,Station C,Station A,ExpressLine,conn_282,09:18 PM,02:17 AM,4,"['leg55', 'leg80', 'leg3']"
+283,Station I,Station H,CityLink,conn_283,09:11 AM,04:00 PM,16,"['leg37', 'leg5']"
+284,Station H,Station G,CityLink,conn_284,06:56 PM,11:54 PM,2,"['leg89', 'leg33']"
+285,Station D,Station C,CityLink,conn_285,03:50 AM,07:13 AM,2,"['leg3', 'leg41']"
+286,Station D,Station H,TrainCo,conn_286,03:32 PM,09:22 PM,2,['leg97']
+287,Station E,Station H,TrainCo,conn_287,04:28 AM,08:22 AM,8,"['leg93', 'leg45']"
+288,Station A,Station D,ExpressLine,conn_288,08:03 AM,02:26 PM,32,"['leg57', 'leg26', 'leg70']"
+289,Station H,Station D,CityLink,conn_289,12:41 AM,04:06 AM,32,['leg63']
+290,Station G,Station A,FastTrack,conn_290,11:30 PM,04:17 AM,8,"['leg89', 'leg91']"
+291,Station B,Station F,SuperRail,conn_291,01:54 AM,04:37 AM,2,"['leg79', 'leg62', 'leg90']"
+292,Station A,Station H,ExpressLine,conn_292,03:33 AM,09:23 AM,64,"['leg78', 'leg54', 'leg21']"
+293,Station D,Station H,ExpressLine,conn_293,04:30 AM,10:17 AM,32,"['leg4', 'leg33']"
+294,Station B,Station J,SuperRail,conn_294,01:51 AM,07:52 AM,2,"['leg100', 'leg100']"
+295,Station J,Station H,TrainCo,conn_295,07:49 AM,01:06 PM,32,"['leg34', 'leg60']"
+296,Station I,Station A,CityLink,conn_296,05:36 AM,12:35 PM,16,"['leg52', 'leg16', 'leg79']"
+297,Station G,Station J,ExpressLine,conn_297,12:28 PM,07:15 PM,64,"['leg6', 'leg40']"
+298,Station G,Station F,SuperRail,conn_298,09:03 AM,03:48 PM,64,"['leg72', 'leg44']"
+299,Station F,Station B,FastTrack,conn_299,11:56 AM,03:53 PM,4,['leg69']
+300,Station C,Station B,SuperRail,conn_300,07:22 PM,09:59 PM,8,"['leg80', 'leg100']"
+301,Station J,Station A,FastTrack,conn_301,03:21 AM,08:37 AM,2,"['leg68', 'leg25']"
+302,Station C,Station I,CityLink,conn_302,12:50 PM,06:26 PM,16,"['leg41', 'leg36']"
+303,Station B,Station D,TrainCo,conn_303,02:35 AM,06:38 AM,8,"['leg25', 'leg21', 'leg25']"
+304,Station E,Station I,CityLink,conn_304,12:41 AM,05:35 AM,8,['leg59']
+305,Station I,Station A,ExpressLine,conn_305,06:32 AM,01:24 PM,32,['leg89']
+306,Station G,Station H,CityLink,conn_306,06:19 PM,11:24 PM,2,"['leg10', 'leg17', 'leg48']"
+307,Station H,Station E,CityLink,conn_307,08:28 PM,03:11 AM,1,"['leg40', 'leg100', 'leg80']"
+308,Station F,Station C,TrainCo,conn_308,08:58 AM,03:14 PM,4,"['leg23', 'leg43']"
+309,Station G,Station I,TrainCo,conn_309,03:41 PM,10:01 PM,16,"['leg79', 'leg4', 'leg58']"
+310,Station G,Station C,ExpressLine,conn_310,08:33 PM,02:24 AM,2,"['leg81', 'leg49', 'leg55']"
+311,Station J,Station I,SuperRail,conn_311,09:38 PM,11:59 PM,64,['leg100']
+312,Station I,Station F,TrainCo,conn_312,06:38 AM,12:46 PM,4,"['leg93', 'leg66']"
+313,Station I,Station C,ExpressLine,conn_313,06:33 AM,12:34 PM,8,['leg73']
+314,Station H,Station I,ExpressLine,conn_314,05:01 AM,07:45 AM,8,"['leg3', 'leg49', 'leg72']"
+315,Station A,Station H,SuperRail,conn_315,04:24 PM,10:50 PM,2,"['leg90', 'leg64']"
+316,Station A,Station F,SuperRail,conn_316,08:51 AM,02:25 PM,1,"['leg66', 'leg37', 'leg5']"
+317,Station J,Station D,TrainCo,conn_317,06:22 AM,12:03 PM,16,['leg29']
+318,Station B,Station I,FastTrack,conn_318,06:22 PM,10:26 PM,8,"['leg16', 'leg35', 'leg74']"
+319,Station G,Station D,FastTrack,conn_319,04:05 AM,08:57 AM,16,"['leg98', 'leg44']"
+320,Station J,Station C,TrainCo,conn_320,03:30 AM,05:33 AM,4,"['leg53', 'leg52']"
+321,Station G,Station B,CityLink,conn_321,09:14 AM,03:37 PM,8,"['leg69', 'leg92']"
+322,Station B,Station F,TrainCo,conn_322,09:58 AM,12:35 PM,4,['leg46']
+323,Station I,Station J,CityLink,conn_323,04:30 AM,08:52 AM,8,['leg63']
+324,Station J,Station D,FastTrack,conn_324,11:15 AM,02:32 PM,8,"['leg81', 'leg73']"
+325,Station C,Station H,TrainCo,conn_325,08:24 PM,12:57 AM,4,"['leg30', 'leg64']"
+326,Station H,Station A,SuperRail,conn_326,08:26 PM,03:04 AM,8,"['leg4', 'leg10', 'leg77']"
+327,Station G,Station E,SuperRail,conn_327,10:36 PM,03:13 AM,16,"['leg20', 'leg71', 'leg63']"
+328,Station J,Station I,TrainCo,conn_328,10:42 PM,04:03 AM,8,['leg73']
+329,Station D,Station B,FastTrack,conn_329,02:54 PM,09:20 PM,4,"['leg86', 'leg52']"
+330,Station G,Station D,ExpressLine,conn_330,08:49 AM,02:18 PM,8,"['leg91', 'leg76']"
+331,Station A,Station C,CityLink,conn_331,10:21 AM,05:13 PM,8,"['leg48', 'leg17', 'leg84']"
+332,Station A,Station J,TrainCo,conn_332,03:58 PM,07:44 PM,8,"['leg23', 'leg66']"
+333,Station H,Station F,FastTrack,conn_333,07:17 PM,11:27 PM,4,"['leg64', 'leg87']"
+334,Station C,Station A,SuperRail,conn_334,01:40 PM,08:20 PM,1,"['leg69', 'leg35', 'leg79']"
+335,Station A,Station B,FastTrack,conn_335,01:56 AM,08:42 AM,2,"['leg42', 'leg7']"
+336,Station A,Station H,TrainCo,conn_336,11:11 AM,05:29 PM,32,['leg53']
+337,Station E,Station F,CityLink,conn_337,12:13 PM,04:12 PM,64,"['leg78', 'leg96']"
+338,Station H,Station F,SuperRail,conn_338,01:59 AM,05:04 AM,4,['leg68']
+339,Station A,Station G,SuperRail,conn_339,12:02 AM,02:30 AM,1,['leg95']
+340,Station B,Station F,TrainCo,conn_340,11:41 PM,06:25 AM,64,['leg62']
+341,Station B,Station D,TrainCo,conn_341,12:33 AM,07:24 AM,4,"['leg5', 'leg97']"
+342,Station J,Station I,CityLink,conn_342,04:09 AM,09:00 AM,1,['leg66']
+343,Station C,Station A,ExpressLine,conn_343,01:31 PM,08:14 PM,32,"['leg60', 'leg30', 'leg7']"
+344,Station J,Station B,ExpressLine,conn_344,08:10 AM,10:46 AM,8,"['leg24', 'leg61']"
+345,Station E,Station J,CityLink,conn_345,10:11 PM,04:27 AM,1,['leg8']
+346,Station A,Station C,CityLink,conn_346,02:27 AM,05:23 AM,1,['leg17']
+347,Station H,Station E,SuperRail,conn_347,04:31 AM,09:51 AM,1,"['leg4', 'leg69', 'leg68']"
+348,Station B,Station A,TrainCo,conn_348,03:58 AM,08:22 AM,1,['leg57']
+349,Station E,Station C,CityLink,conn_349,02:54 PM,09:13 PM,16,"['leg77', 'leg59']"
+350,Station A,Station C,TrainCo,conn_350,05:45 AM,08:31 AM,16,['leg44']
+351,Station F,Station I,SuperRail,conn_351,07:33 AM,11:54 AM,1,"['leg53', 'leg96']"
+352,Station B,Station G,TrainCo,conn_352,04:41 AM,08:13 AM,2,"['leg26', 'leg86', 'leg30']"
+353,Station H,Station A,TrainCo,conn_353,10:00 AM,02:50 PM,8,['leg91']
+354,Station C,Station D,TrainCo,conn_354,06:44 PM,12:15 AM,4,"['leg87', 'leg25']"
+355,Station F,Station I,SuperRail,conn_355,10:11 AM,12:23 PM,32,"['leg5', 'leg36', 'leg25']"
+356,Station I,Station C,ExpressLine,conn_356,06:35 AM,09:17 AM,4,"['leg20', 'leg24', 'leg21']"
+357,Station H,Station A,SuperRail,conn_357,09:43 PM,12:43 AM,8,"['leg97', 'leg54', 'leg19']"
+358,Station G,Station E,TrainCo,conn_358,07:29 AM,10:36 AM,16,"['leg50', 'leg55']"
+359,Station A,Station J,FastTrack,conn_359,06:19 AM,11:19 AM,32,"['leg13', 'leg17']"
+360,Station H,Station F,FastTrack,conn_360,12:33 PM,07:19 PM,16,"['leg65', 'leg91']"
+361,Station A,Station F,FastTrack,conn_361,01:15 PM,05:13 PM,16,"['leg24', 'leg11', 'leg41']"
+362,Station C,Station B,SuperRail,conn_362,11:39 PM,06:29 AM,64,"['leg79', 'leg33']"
+363,Station H,Station B,SuperRail,conn_363,05:56 PM,12:05 AM,8,"['leg8', 'leg73']"
+364,Station C,Station A,SuperRail,conn_364,10:54 PM,02:00 AM,16,['leg11']
+365,Station G,Station I,CityLink,conn_365,09:24 AM,03:05 PM,4,"['leg29', 'leg89', 'leg12']"
+366,Station E,Station B,CityLink,conn_366,04:05 AM,08:53 AM,1,"['leg42', 'leg29', 'leg82']"
+367,Station G,Station A,FastTrack,conn_367,03:56 AM,09:40 AM,8,"['leg4', 'leg17']"
+368,Station I,Station A,SuperRail,conn_368,01:54 AM,05:23 AM,32,['leg69']
+369,Station B,Station G,ExpressLine,conn_369,11:14 PM,05:16 AM,2,"['leg3', 'leg30']"
+370,Station E,Station F,SuperRail,conn_370,07:41 AM,11:24 AM,1,"['leg63', 'leg33']"
+371,Station A,Station H,SuperRail,conn_371,03:32 PM,08:16 PM,64,['leg27']
+372,Station G,Station I,FastTrack,conn_372,11:06 AM,05:23 PM,8,"['leg47', 'leg34']"
+373,Station D,Station E,ExpressLine,conn_373,12:39 AM,03:58 AM,8,"['leg42', 'leg86']"
+374,Station F,Station E,TrainCo,conn_374,06:33 AM,08:50 AM,64,['leg20']
+375,Station F,Station E,TrainCo,conn_375,05:15 PM,07:18 PM,16,"['leg38', 'leg59']"
+376,Station D,Station I,FastTrack,conn_376,12:14 AM,05:24 AM,1,"['leg85', 'leg49']"
+377,Station B,Station A,ExpressLine,conn_377,10:20 AM,01:55 PM,4,"['leg66', 'leg60']"
+378,Station J,Station I,CityLink,conn_378,05:27 AM,10:25 AM,2,['leg29']
+379,Station D,Station F,FastTrack,conn_379,10:27 PM,03:12 AM,32,"['leg79', 'leg10', 'leg70']"
+380,Station B,Station J,ExpressLine,conn_380,01:05 PM,07:25 PM,2,"['leg95', 'leg45']"
+381,Station G,Station B,TrainCo,conn_381,12:24 PM,03:38 PM,8,"['leg27', 'leg94']"
+382,Station G,Station C,ExpressLine,conn_382,04:38 PM,09:01 PM,64,['leg37']
+383,Station G,Station D,TrainCo,conn_383,12:33 PM,02:44 PM,32,['leg69']
+384,Station H,Station C,TrainCo,conn_384,11:11 AM,02:05 PM,4,"['leg91', 'leg5', 'leg1']"
+385,Station D,Station C,ExpressLine,conn_385,06:52 AM,11:00 AM,8,['leg6']
+386,Station H,Station G,CityLink,conn_386,11:21 PM,04:08 AM,4,['leg12']
+387,Station A,Station E,CityLink,conn_387,04:15 AM,08:17 AM,8,"['leg30', 'leg27']"
+388,Station F,Station H,ExpressLine,conn_388,10:58 AM,03:32 PM,8,"['leg4', 'leg35']"
+389,Station A,Station D,FastTrack,conn_389,01:21 AM,04:12 AM,32,"['leg52', 'leg50']"
+390,Station H,Station C,FastTrack,conn_390,05:55 PM,11:44 PM,1,"['leg89', 'leg47']"
+391,Station C,Station A,TrainCo,conn_391,10:47 PM,02:50 AM,16,"['leg19', 'leg40']"
+392,Station G,Station F,CityLink,conn_392,02:38 PM,07:17 PM,1,"['leg41', 'leg62']"
+393,Station F,Station A,CityLink,conn_393,08:28 AM,10:56 AM,1,"['leg17', 'leg33', 'leg63']"
+394,Station F,Station C,TrainCo,conn_394,09:52 PM,12:35 AM,64,"['leg82', 'leg31']"
+395,Station I,Station J,SuperRail,conn_395,03:57 AM,09:59 AM,32,['leg71']
+396,Station H,Station F,ExpressLine,conn_396,05:23 AM,08:29 AM,32,"['leg55', 'leg22', 'leg73']"
+397,Station J,Station I,TrainCo,conn_397,03:55 PM,09:12 PM,64,['leg66']
+398,Station G,Station I,SuperRail,conn_398,09:35 PM,02:56 AM,16,"['leg67', 'leg18']"
+399,Station I,Station A,ExpressLine,conn_399,06:23 AM,11:35 AM,8,"['leg79', 'leg48', 'leg76']"
+400,Station J,Station I,CityLink,conn_400,05:03 AM,08:20 AM,8,"['leg27', 'leg43', 'leg36']"
+401,Station J,Station B,CityLink,conn_401,06:59 AM,09:33 AM,1,['leg16']
+402,Station G,Station D,FastTrack,conn_402,12:50 AM,07:25 AM,8,"['leg82', 'leg23']"
+403,Station J,Station E,SuperRail,conn_403,08:59 AM,03:02 PM,64,['leg80']
+404,Station I,Station C,FastTrack,conn_404,06:30 PM,09:02 PM,32,"['leg24', 'leg19', 'leg85']"
+405,Station B,Station A,TrainCo,conn_405,07:25 PM,10:20 PM,8,"['leg59', 'leg96']"
+406,Station H,Station F,FastTrack,conn_406,03:32 PM,07:23 PM,8,"['leg38', 'leg9']"
+407,Station C,Station D,CityLink,conn_407,03:58 AM,10:45 AM,64,"['leg37', 'leg38', 'leg67']"
+408,Station I,Station G,TrainCo,conn_408,01:23 PM,05:31 PM,2,"['leg20', 'leg30']"
+409,Station H,Station C,SuperRail,conn_409,03:13 PM,09:12 PM,8,['leg89']
+410,Station G,Station I,SuperRail,conn_410,08:46 PM,03:42 AM,4,"['leg64', 'leg69', 'leg86']"
+411,Station H,Station D,ExpressLine,conn_411,11:31 PM,04:04 AM,1,"['leg73', 'leg65', 'leg96']"
+412,Station H,Station A,TrainCo,conn_412,04:37 AM,06:54 AM,1,"['leg61', 'leg94']"
+413,Station F,Station D,CityLink,conn_413,05:32 AM,09:49 AM,1,"['leg93', 'leg37']"
+414,Station E,Station D,SuperRail,conn_414,04:59 AM,10:41 AM,8,"['leg99', 'leg87', 'leg69']"
+415,Station F,Station B,FastTrack,conn_415,03:24 PM,10:09 PM,2,"['leg87', 'leg13']"
+416,Station H,Station G,ExpressLine,conn_416,07:11 PM,09:41 PM,1,['leg81']
+417,Station B,Station C,FastTrack,conn_417,05:15 AM,08:03 AM,16,"['leg26', 'leg87', 'leg94']"
+418,Station F,Station B,TrainCo,conn_418,03:27 PM,06:01 PM,16,"['leg69', 'leg35', 'leg84']"
+419,Station D,Station B,SuperRail,conn_419,11:32 PM,04:11 AM,8,"['leg30', 'leg57', 'leg95']"
+420,Station F,Station D,CityLink,conn_420,01:31 PM,04:09 PM,32,"['leg81', 'leg73', 'leg42']"
+421,Station G,Station I,ExpressLine,conn_421,04:31 PM,09:03 PM,16,"['leg97', 'leg73']"
+422,Station C,Station J,ExpressLine,conn_422,08:47 PM,02:19 AM,2,"['leg56', 'leg80', 'leg42']"
+423,Station C,Station F,ExpressLine,conn_423,10:34 AM,04:42 PM,64,"['leg14', 'leg88']"
+424,Station J,Station B,ExpressLine,conn_424,07:05 AM,01:50 PM,16,"['leg93', 'leg94']"
+425,Station G,Station A,TrainCo,conn_425,11:21 AM,05:10 PM,16,['leg64']
+426,Station D,Station C,CityLink,conn_426,12:49 AM,06:56 AM,1,"['leg93', 'leg81', 'leg50']"
+427,Station B,Station J,TrainCo,conn_427,09:52 AM,12:27 PM,16,"['leg16', 'leg86', 'leg92']"
+428,Station A,Station J,CityLink,conn_428,02:09 PM,06:43 PM,64,"['leg74', 'leg61', 'leg92']"
+429,Station D,Station J,ExpressLine,conn_429,10:58 AM,01:22 PM,64,"['leg96', 'leg62']"
+430,Station C,Station J,SuperRail,conn_430,03:28 PM,06:41 PM,4,"['leg35', 'leg73']"
+431,Station J,Station F,SuperRail,conn_431,03:11 PM,07:33 PM,4,"['leg67', 'leg10', 'leg63']"
+432,Station A,Station H,ExpressLine,conn_432,03:38 PM,09:32 PM,8,"['leg20', 'leg60']"
+433,Station B,Station I,SuperRail,conn_433,07:05 AM,12:02 PM,64,"['leg66', 'leg55']"
+434,Station I,Station A,ExpressLine,conn_434,10:11 PM,03:26 AM,64,"['leg26', 'leg56', 'leg44']"
+435,Station B,Station I,TrainCo,conn_435,12:33 AM,02:49 AM,32,['leg26']
+436,Station I,Station C,CityLink,conn_436,05:29 AM,10:37 AM,4,"['leg78', 'leg95']"
+437,Station E,Station A,CityLink,conn_437,12:15 AM,03:32 AM,4,"['leg32', 'leg10', 'leg14']"
+438,Station D,Station A,CityLink,conn_438,03:17 AM,07:19 AM,8,"['leg31', 'leg38', 'leg33']"
+439,Station F,Station J,SuperRail,conn_439,05:50 AM,10:17 AM,4,"['leg88', 'leg55']"
+440,Station H,Station A,CityLink,conn_440,12:43 PM,03:36 PM,1,"['leg36', 'leg42', 'leg17']"
+441,Station A,Station I,CityLink,conn_441,08:52 AM,11:11 AM,64,"['leg97', 'leg26', 'leg26']"
+442,Station G,Station J,ExpressLine,conn_442,06:23 PM,09:05 PM,8,['leg3']
+443,Station F,Station D,CityLink,conn_443,08:24 PM,02:09 AM,1,['leg8']
+444,Station A,Station D,CityLink,conn_444,02:50 AM,05:12 AM,64,"['leg83', 'leg16']"
+445,Station I,Station B,SuperRail,conn_445,07:14 PM,01:36 AM,64,['leg56']
+446,Station D,Station A,CityLink,conn_446,10:46 AM,12:51 PM,8,"['leg20', 'leg55', 'leg16']"
+447,Station G,Station C,TrainCo,conn_447,01:26 PM,05:37 PM,32,"['leg15', 'leg87']"
+448,Station F,Station B,CityLink,conn_448,12:10 PM,02:23 PM,1,['leg9']
+449,Station B,Station E,CityLink,conn_449,02:23 PM,08:16 PM,32,"['leg83', 'leg86', 'leg95']"
+450,Station J,Station E,SuperRail,conn_450,01:49 AM,04:59 AM,8,"['leg30', 'leg48']"
+451,Station C,Station E,TrainCo,conn_451,06:46 AM,01:22 PM,32,['leg70']
+452,Station D,Station B,SuperRail,conn_452,09:07 AM,12:07 PM,1,"['leg70', 'leg42', 'leg91']"
+453,Station J,Station I,SuperRail,conn_453,08:35 PM,01:58 AM,4,"['leg73', 'leg34', 'leg74']"
+454,Station E,Station F,FastTrack,conn_454,11:47 AM,04:06 PM,2,"['leg5', 'leg56']"
+455,Station A,Station H,FastTrack,conn_455,10:20 PM,02:01 AM,1,"['leg50', 'leg84', 'leg42']"
+456,Station E,Station F,CityLink,conn_456,08:10 PM,10:37 PM,4,"['leg63', 'leg71']"
+457,Station A,Station C,CityLink,conn_457,08:31 AM,12:21 PM,4,"['leg50', 'leg26']"
+458,Station B,Station G,ExpressLine,conn_458,11:20 PM,04:00 AM,1,"['leg57', 'leg86']"
+459,Station C,Station B,FastTrack,conn_459,07:10 AM,10:15 AM,2,"['leg52', 'leg29', 'leg63']"
+460,Station B,Station C,CityLink,conn_460,11:31 PM,05:09 AM,4,"['leg21', 'leg54', 'leg15']"
+461,Station A,Station H,TrainCo,conn_461,01:01 AM,06:08 AM,16,"['leg49', 'leg69']"
+462,Station J,Station H,ExpressLine,conn_462,02:44 PM,09:13 PM,32,['leg28']
+463,Station H,Station D,CityLink,conn_463,05:31 PM,07:32 PM,64,"['leg73', 'leg31']"
+464,Station B,Station I,FastTrack,conn_464,05:45 PM,11:11 PM,8,"['leg60', 'leg37', 'leg28']"
+465,Station I,Station B,SuperRail,conn_465,03:12 PM,07:12 PM,64,"['leg2', 'leg5', 'leg55']"
+466,Station H,Station C,CityLink,conn_466,12:33 PM,07:00 PM,1,"['leg4', 'leg44']"
+467,Station C,Station I,ExpressLine,conn_467,10:32 AM,04:48 PM,1,"['leg51', 'leg41']"
+468,Station E,Station J,FastTrack,conn_468,10:47 PM,05:41 AM,64,"['leg42', 'leg94', 'leg29']"
+469,Station A,Station J,TrainCo,conn_469,05:53 PM,09:31 PM,32,"['leg40', 'leg75']"
+470,Station C,Station G,TrainCo,conn_470,07:27 PM,11:31 PM,1,"['leg41', 'leg88', 'leg83']"
+471,Station I,Station F,SuperRail,conn_471,12:58 AM,06:47 AM,32,"['leg28', 'leg19', 'leg48']"
+472,Station A,Station D,FastTrack,conn_472,02:31 PM,08:07 PM,64,['leg41']
+473,Station J,Station F,ExpressLine,conn_473,06:29 AM,11:08 AM,64,['leg69']
+474,Station C,Station B,ExpressLine,conn_474,12:42 PM,03:55 PM,16,"['leg46', 'leg63']"
+475,Station A,Station I,CityLink,conn_475,04:26 AM,08:45 AM,2,['leg57']
+476,Station H,Station F,TrainCo,conn_476,04:44 PM,11:15 PM,1,"['leg12', 'leg59', 'leg20']"
+477,Station I,Station B,TrainCo,conn_477,12:04 AM,02:27 AM,1,['leg16']
+478,Station A,Station E,FastTrack,conn_478,01:50 AM,05:28 AM,32,"['leg78', 'leg60', 'leg93']"
+479,Station C,Station B,CityLink,conn_479,06:53 AM,10:09 AM,2,['leg29']
+480,Station C,Station G,TrainCo,conn_480,07:35 PM,11:47 PM,64,['leg66']
+481,Station A,Station G,CityLink,conn_481,03:49 PM,06:02 PM,4,['leg81']
+482,Station G,Station D,SuperRail,conn_482,06:13 PM,10:12 PM,8,"['leg7', 'leg78', 'leg31']"
+483,Station B,Station D,CityLink,conn_483,06:08 AM,12:07 PM,32,"['leg84', 'leg9', 'leg26']"
+484,Station E,Station J,FastTrack,conn_484,03:47 PM,08:50 PM,64,"['leg72', 'leg4']"
+485,Station G,Station C,ExpressLine,conn_485,11:07 AM,04:58 PM,64,"['leg49', 'leg62', 'leg47']"
+486,Station H,Station C,SuperRail,conn_486,06:37 PM,11:10 PM,64,['leg93']
+487,Station J,Station C,CityLink,conn_487,05:16 AM,07:56 AM,8,"['leg77', 'leg64', 'leg33']"
+488,Station A,Station D,ExpressLine,conn_488,07:48 AM,11:11 AM,1,"['leg14', 'leg3', 'leg64']"
+489,Station D,Station J,ExpressLine,conn_489,08:05 PM,11:45 PM,2,"['leg67', 'leg55', 'leg96']"
+490,Station D,Station C,ExpressLine,conn_490,04:07 PM,09:56 PM,4,"['leg80', 'leg50', 'leg31']"
+491,Station G,Station J,FastTrack,conn_491,08:43 PM,01:15 AM,64,"['leg54', 'leg81']"
+492,Station F,Station J,TrainCo,conn_492,08:56 PM,03:35 AM,2,['leg64']
+493,Station G,Station J,CityLink,conn_493,07:30 AM,11:44 AM,2,"['leg100', 'leg44']"
+494,Station H,Station B,SuperRail,conn_494,01:26 AM,07:03 AM,8,"['leg50', 'leg6']"
+495,Station H,Station B,SuperRail,conn_495,08:10 PM,10:55 PM,64,"['leg44', 'leg60']"
+496,Station G,Station D,TrainCo,conn_496,05:24 AM,10:33 AM,64,['leg29']
+497,Station E,Station D,ExpressLine,conn_497,11:38 PM,04:09 AM,8,['leg44']
+498,Station D,Station F,ExpressLine,conn_498,09:12 PM,11:55 PM,1,"['leg100', 'leg17', 'leg67']"
+499,Station F,Station A,FastTrack,conn_499,04:50 PM,10:09 PM,16,"['leg3', 'leg85']"
+500,Station B,Station I,TrainCo,conn_500,06:55 PM,01:14 AM,32,['leg48']
+501,Station G,Station F,SuperRail,conn_501,03:45 AM,08:08 AM,32,"['leg89', 'leg20', 'leg40']"
+502,Station E,Station J,CityLink,conn_502,02:10 AM,08:50 AM,1,['leg59']
+503,Station J,Station B,SuperRail,conn_503,02:25 PM,05:20 PM,1,"['leg19', 'leg32']"
+504,Station I,Station A,FastTrack,conn_504,07:23 PM,09:25 PM,2,"['leg75', 'leg36']"
+505,Station D,Station J,ExpressLine,conn_505,07:09 PM,11:47 PM,1,['leg28']
+506,Station B,Station C,TrainCo,conn_506,08:09 PM,02:23 AM,64,"['leg42', 'leg5', 'leg46']"
+507,Station I,Station F,SuperRail,conn_507,06:10 AM,09:41 AM,32,"['leg84', 'leg1', 'leg85']"
+508,Station D,Station A,FastTrack,conn_508,10:49 AM,02:38 PM,8,"['leg89', 'leg39', 'leg91']"
+509,Station J,Station G,ExpressLine,conn_509,07:18 PM,01:21 AM,8,"['leg33', 'leg92', 'leg72']"
+510,Station C,Station H,TrainCo,conn_510,08:43 AM,03:36 PM,8,"['leg45', 'leg16']"
+511,Station G,Station E,TrainCo,conn_511,11:40 AM,03:54 PM,2,"['leg65', 'leg71', 'leg63']"
+512,Station A,Station E,CityLink,conn_512,10:02 PM,02:27 AM,32,"['leg24', 'leg65']"
+513,Station F,Station H,ExpressLine,conn_513,06:47 PM,09:39 PM,16,['leg12']
+514,Station C,Station D,CityLink,conn_514,02:35 PM,08:17 PM,4,"['leg88', 'leg27', 'leg52']"
+515,Station D,Station A,SuperRail,conn_515,02:08 PM,08:11 PM,8,"['leg78', 'leg81']"
+516,Station B,Station G,ExpressLine,conn_516,06:46 AM,11:26 AM,32,"['leg73', 'leg85', 'leg65']"
+517,Station A,Station E,SuperRail,conn_517,07:20 PM,11:09 PM,2,"['leg89', 'leg87']"
+518,Station F,Station E,SuperRail,conn_518,10:09 PM,01:41 AM,32,"['leg69', 'leg97']"
+519,Station G,Station B,SuperRail,conn_519,04:32 PM,09:21 PM,8,"['leg59', 'leg2', 'leg39']"
+520,Station A,Station B,TrainCo,conn_520,10:08 PM,04:03 AM,1,"['leg62', 'leg97']"
+521,Station E,Station F,ExpressLine,conn_521,11:22 PM,04:37 AM,64,"['leg85', 'leg29']"
+522,Station J,Station F,SuperRail,conn_522,11:54 AM,04:55 PM,4,"['leg98', 'leg80', 'leg28']"
+523,Station J,Station F,CityLink,conn_523,09:04 PM,02:57 AM,2,"['leg89', 'leg80', 'leg83']"
+524,Station I,Station E,ExpressLine,conn_524,06:43 AM,09:55 AM,2,"['leg95', 'leg77', 'leg96']"
+525,Station I,Station H,CityLink,conn_525,12:59 AM,07:55 AM,16,"['leg68', 'leg2']"
+526,Station H,Station G,TrainCo,conn_526,12:54 PM,03:23 PM,2,['leg4']
+527,Station I,Station H,CityLink,conn_527,09:11 PM,02:17 AM,64,['leg47']
+528,Station D,Station F,SuperRail,conn_528,11:13 PM,03:00 AM,1,['leg86']
+529,Station D,Station C,TrainCo,conn_529,04:32 PM,07:10 PM,4,['leg68']
+530,Station H,Station G,FastTrack,conn_530,12:40 PM,04:33 PM,4,"['leg23', 'leg8']"
+531,Station F,Station A,CityLink,conn_531,08:41 PM,03:38 AM,64,['leg19']
+532,Station F,Station E,FastTrack,conn_532,12:44 AM,06:02 AM,8,['leg24']
+533,Station B,Station A,FastTrack,conn_533,07:16 AM,11:18 AM,64,"['leg65', 'leg9', 'leg52']"
+534,Station F,Station C,FastTrack,conn_534,09:46 PM,03:19 AM,16,['leg46']
+535,Station C,Station J,ExpressLine,conn_535,12:12 PM,04:49 PM,8,"['leg24', 'leg69']"
+536,Station J,Station F,TrainCo,conn_536,05:35 PM,08:58 PM,64,"['leg97', 'leg8', 'leg22']"
+537,Station B,Station H,FastTrack,conn_537,06:24 AM,12:06 PM,64,['leg72']
+538,Station J,Station G,TrainCo,conn_538,11:44 PM,03:04 AM,64,"['leg68', 'leg14', 'leg17']"
+539,Station A,Station E,ExpressLine,conn_539,09:56 PM,02:31 AM,4,['leg72']
+540,Station I,Station B,ExpressLine,conn_540,11:58 PM,06:32 AM,8,"['leg93', 'leg35', 'leg100']"
+541,Station G,Station C,TrainCo,conn_541,04:55 AM,09:46 AM,16,"['leg23', 'leg47']"
+542,Station E,Station D,ExpressLine,conn_542,01:44 AM,07:13 AM,8,"['leg10', 'leg51']"
+543,Station I,Station F,CityLink,conn_543,01:43 AM,05:21 AM,4,"['leg60', 'leg9', 'leg83']"
+544,Station J,Station A,CityLink,conn_544,02:54 PM,06:29 PM,64,['leg62']
+545,Station I,Station C,FastTrack,conn_545,02:50 PM,08:12 PM,1,"['leg24', 'leg97']"
+546,Station I,Station A,SuperRail,conn_546,01:57 AM,06:23 AM,64,"['leg84', 'leg29']"
+547,Station F,Station A,CityLink,conn_547,09:03 AM,11:22 AM,32,['leg73']
+548,Station C,Station G,CityLink,conn_548,08:57 PM,11:36 PM,4,"['leg72', 'leg19', 'leg85']"
+549,Station H,Station I,ExpressLine,conn_549,10:26 PM,04:16 AM,4,['leg30']
+550,Station C,Station I,FastTrack,conn_550,10:03 AM,01:23 PM,64,"['leg35', 'leg20', 'leg83']"
+551,Station C,Station F,ExpressLine,conn_551,10:12 AM,12:37 PM,2,['leg78']
+552,Station I,Station D,CityLink,conn_552,10:06 AM,04:34 PM,16,"['leg42', 'leg38']"
+553,Station D,Station B,TrainCo,conn_553,09:04 PM,11:47 PM,1,"['leg62', 'leg21', 'leg66']"
+554,Station E,Station H,TrainCo,conn_554,03:04 PM,09:31 PM,16,"['leg59', 'leg14']"
+555,Station C,Station I,SuperRail,conn_555,08:02 PM,01:20 AM,64,"['leg95', 'leg12']"
+556,Station G,Station J,TrainCo,conn_556,09:01 AM,11:12 AM,16,"['leg65', 'leg23', 'leg28']"
+557,Station D,Station J,SuperRail,conn_557,10:37 AM,04:12 PM,32,['leg100']
+558,Station D,Station E,TrainCo,conn_558,04:11 AM,08:25 AM,2,"['leg13', 'leg32']"
+559,Station F,Station J,CityLink,conn_559,08:51 AM,02:57 PM,2,"['leg15', 'leg89', 'leg97']"
+560,Station D,Station A,ExpressLine,conn_560,03:39 PM,07:58 PM,8,"['leg10', 'leg53', 'leg1']"
+561,Station I,Station J,TrainCo,conn_561,04:48 PM,07:44 PM,1,['leg12']
+562,Station I,Station B,FastTrack,conn_562,08:38 AM,12:53 PM,8,"['leg95', 'leg37', 'leg11']"
+563,Station J,Station H,SuperRail,conn_563,08:32 AM,10:44 AM,4,"['leg1', 'leg37']"
+564,Station G,Station A,CityLink,conn_564,07:09 AM,12:13 PM,64,"['leg78', 'leg4']"
+565,Station C,Station B,FastTrack,conn_565,05:51 PM,08:23 PM,8,"['leg36', 'leg25']"
+566,Station H,Station B,CityLink,conn_566,02:43 AM,06:21 AM,16,['leg20']
+567,Station C,Station H,TrainCo,conn_567,05:06 AM,09:22 AM,8,"['leg79', 'leg41', 'leg5']"
+568,Station G,Station B,ExpressLine,conn_568,10:38 PM,05:02 AM,8,"['leg52', 'leg80', 'leg76']"
+569,Station D,Station J,SuperRail,conn_569,06:44 AM,12:53 PM,2,['leg27']
+570,Station J,Station E,SuperRail,conn_570,05:02 AM,10:28 AM,8,"['leg28', 'leg34', 'leg80']"
+571,Station F,Station I,ExpressLine,conn_571,09:57 PM,12:02 AM,32,"['leg17', 'leg49']"
+572,Station H,Station I,CityLink,conn_572,11:32 AM,02:11 PM,2,"['leg6', 'leg41']"
+573,Station A,Station F,ExpressLine,conn_573,03:48 PM,08:34 PM,64,"['leg89', 'leg17']"
+574,Station F,Station D,ExpressLine,conn_574,10:16 AM,03:45 PM,8,['leg17']
+575,Station F,Station C,TrainCo,conn_575,10:50 AM,02:27 PM,1,"['leg56', 'leg34', 'leg14']"
+576,Station D,Station B,ExpressLine,conn_576,08:38 AM,10:51 AM,1,"['leg41', 'leg68', 'leg5']"
+577,Station I,Station F,TrainCo,conn_577,04:54 AM,10:03 AM,8,"['leg10', 'leg42', 'leg32']"
+578,Station J,Station D,CityLink,conn_578,02:13 PM,06:38 PM,64,['leg65']
+579,Station A,Station B,ExpressLine,conn_579,12:19 PM,06:51 PM,4,"['leg36', 'leg21']"
+580,Station F,Station I,ExpressLine,conn_580,01:13 AM,03:45 AM,16,"['leg46', 'leg27']"
+581,Station H,Station B,TrainCo,conn_581,03:30 PM,08:10 PM,64,"['leg22', 'leg43']"
+582,Station D,Station H,TrainCo,conn_582,05:29 PM,09:04 PM,4,"['leg41', 'leg68', 'leg47']"
+583,Station I,Station J,CityLink,conn_583,12:08 PM,04:56 PM,8,"['leg100', 'leg2', 'leg1']"
+584,Station H,Station G,FastTrack,conn_584,07:34 AM,11:18 AM,4,['leg24']
+585,Station I,Station E,SuperRail,conn_585,05:35 PM,08:50 PM,64,['leg15']
+586,Station H,Station A,SuperRail,conn_586,08:53 PM,01:29 AM,1,['leg30']
+587,Station E,Station H,ExpressLine,conn_587,07:10 AM,11:53 AM,8,"['leg51', 'leg29', 'leg63']"
+588,Station G,Station E,TrainCo,conn_588,09:45 PM,12:56 AM,32,"['leg79', 'leg15', 'leg61']"
+589,Station D,Station F,TrainCo,conn_589,01:24 PM,03:51 PM,4,['leg2']
+590,Station A,Station E,TrainCo,conn_590,09:29 PM,03:14 AM,4,['leg95']
+591,Station F,Station I,ExpressLine,conn_591,12:01 AM,06:35 AM,16,"['leg53', 'leg72', 'leg81']"
+592,Station B,Station C,TrainCo,conn_592,03:58 AM,07:22 AM,2,"['leg12', 'leg48']"
+593,Station H,Station J,FastTrack,conn_593,08:31 AM,02:35 PM,2,['leg3']
+594,Station F,Station C,FastTrack,conn_594,06:32 PM,11:57 PM,32,['leg57']
+595,Station C,Station H,SuperRail,conn_595,07:15 PM,10:17 PM,32,['leg35']
+596,Station I,Station H,ExpressLine,conn_596,02:18 AM,09:03 AM,2,"['leg55', 'leg100']"
+597,Station I,Station E,TrainCo,conn_597,05:38 AM,10:51 AM,1,['leg26']
+598,Station A,Station H,FastTrack,conn_598,02:43 AM,05:49 AM,8,"['leg60', 'leg29', 'leg64']"
+599,Station F,Station I,FastTrack,conn_599,08:50 PM,01:05 AM,16,"['leg47', 'leg27', 'leg47']"
+600,Station I,Station E,CityLink,conn_600,05:19 AM,08:32 AM,1,"['leg2', 'leg13']"
+601,Station D,Station H,TrainCo,conn_601,12:38 PM,04:12 PM,2,"['leg21', 'leg96']"
+602,Station I,Station D,SuperRail,conn_602,11:35 PM,03:52 AM,8,"['leg40', 'leg44', 'leg34']"
+603,Station I,Station A,FastTrack,conn_603,08:20 PM,10:38 PM,16,"['leg93', 'leg2', 'leg98']"
+604,Station J,Station C,ExpressLine,conn_604,11:06 AM,05:49 PM,64,['leg10']
+605,Station G,Station C,SuperRail,conn_605,02:43 AM,08:20 AM,16,"['leg8', 'leg8']"
+606,Station B,Station D,TrainCo,conn_606,04:09 AM,08:09 AM,64,['leg83']
+607,Station J,Station H,CityLink,conn_607,07:51 AM,01:11 PM,32,"['leg33', 'leg99']"
+608,Station J,Station E,ExpressLine,conn_608,03:39 PM,06:05 PM,1,['leg20']
+609,Station D,Station B,TrainCo,conn_609,07:03 PM,01:38 AM,8,"['leg95', 'leg49', 'leg91']"
+610,Station J,Station A,SuperRail,conn_610,02:33 AM,07:32 AM,4,"['leg78', 'leg91']"
+611,Station I,Station D,ExpressLine,conn_611,01:27 PM,05:56 PM,64,['leg39']
+612,Station C,Station B,SuperRail,conn_612,08:27 PM,01:31 AM,64,['leg20']
+613,Station J,Station D,TrainCo,conn_613,11:41 AM,03:33 PM,64,"['leg58', 'leg51']"
+614,Station A,Station B,ExpressLine,conn_614,02:17 AM,07:46 AM,8,"['leg86', 'leg72', 'leg61']"
+615,Station I,Station H,TrainCo,conn_615,05:28 AM,12:20 PM,2,"['leg65', 'leg17', 'leg7']"
+616,Station F,Station J,ExpressLine,conn_616,01:39 PM,05:45 PM,2,['leg39']
+617,Station I,Station C,SuperRail,conn_617,07:27 PM,01:14 AM,1,['leg33']
+618,Station I,Station A,CityLink,conn_618,01:13 PM,04:33 PM,64,['leg44']
+619,Station I,Station C,CityLink,conn_619,07:36 PM,02:30 AM,16,"['leg40', 'leg37']"
+620,Station F,Station A,ExpressLine,conn_620,08:38 PM,11:37 PM,64,"['leg9', 'leg5', 'leg21']"
+621,Station F,Station D,FastTrack,conn_621,06:42 AM,10:04 AM,1,"['leg74', 'leg4']"
+622,Station C,Station A,FastTrack,conn_622,04:32 AM,07:17 AM,8,"['leg74', 'leg87']"
+623,Station B,Station C,TrainCo,conn_623,09:10 AM,03:00 PM,4,"['leg94', 'leg99', 'leg53']"
+624,Station F,Station H,FastTrack,conn_624,11:04 PM,02:47 AM,2,"['leg31', 'leg94']"
+625,Station B,Station J,CityLink,conn_625,05:59 PM,08:55 PM,2,"['leg27', 'leg82', 'leg34']"
+626,Station D,Station H,SuperRail,conn_626,08:09 AM,10:32 AM,4,"['leg65', 'leg5', 'leg87']"
+627,Station I,Station F,CityLink,conn_627,07:17 AM,11:20 AM,2,['leg26']
+628,Station I,Station B,TrainCo,conn_628,10:41 PM,01:36 AM,2,"['leg85', 'leg20']"
+629,Station A,Station B,ExpressLine,conn_629,07:04 AM,12:31 PM,64,"['leg6', 'leg21']"
+630,Station A,Station B,FastTrack,conn_630,06:22 AM,12:55 PM,1,"['leg21', 'leg64']"
+631,Station A,Station C,SuperRail,conn_631,11:07 PM,05:41 AM,4,"['leg7', 'leg22']"
+632,Station G,Station F,FastTrack,conn_632,06:09 PM,12:43 AM,4,['leg27']
+633,Station A,Station I,ExpressLine,conn_633,09:05 AM,01:45 PM,1,['leg13']
+634,Station D,Station B,FastTrack,conn_634,03:18 AM,07:58 AM,8,"['leg35', 'leg39', 'leg24']"
+635,Station A,Station E,TrainCo,conn_635,04:45 PM,09:52 PM,8,"['leg100', 'leg78']"
+636,Station E,Station I,TrainCo,conn_636,02:49 AM,09:32 AM,8,"['leg65', 'leg38']"
+637,Station G,Station C,FastTrack,conn_637,11:06 PM,01:50 AM,1,"['leg1', 'leg21', 'leg80']"
+638,Station B,Station G,ExpressLine,conn_638,01:57 AM,05:40 AM,64,"['leg48', 'leg52']"
+639,Station A,Station C,CityLink,conn_639,01:06 AM,05:50 AM,2,['leg32']
+640,Station A,Station D,TrainCo,conn_640,07:01 AM,10:21 AM,64,"['leg80', 'leg57']"
+641,Station F,Station I,SuperRail,conn_641,10:10 PM,12:12 AM,32,"['leg15', 'leg87', 'leg2']"
+642,Station H,Station G,ExpressLine,conn_642,03:10 AM,06:48 AM,1,['leg100']
+643,Station D,Station J,ExpressLine,conn_643,04:22 PM,09:51 PM,2,"['leg65', 'leg63', 'leg39']"
+644,Station D,Station E,FastTrack,conn_644,03:17 PM,08:15 PM,32,['leg37']
+645,Station D,Station F,ExpressLine,conn_645,09:49 AM,01:52 PM,8,['leg88']
+646,Station I,Station F,TrainCo,conn_646,01:38 AM,08:04 AM,16,['leg88']
+647,Station I,Station J,FastTrack,conn_647,12:10 PM,04:38 PM,16,['leg4']
+648,Station F,Station J,ExpressLine,conn_648,07:19 PM,01:13 AM,8,['leg4']
+649,Station D,Station G,SuperRail,conn_649,02:30 AM,04:39 AM,4,"['leg28', 'leg49', 'leg79']"
+650,Station J,Station C,ExpressLine,conn_650,12:01 PM,05:24 PM,64,"['leg29', 'leg45', 'leg5']"
+651,Station C,Station G,FastTrack,conn_651,06:24 AM,09:09 AM,1,"['leg19', 'leg28', 'leg9']"
+652,Station J,Station I,TrainCo,conn_652,01:58 AM,08:10 AM,32,"['leg86', 'leg73', 'leg38']"
+653,Station H,Station J,SuperRail,conn_653,01:54 AM,06:55 AM,64,"['leg100', 'leg20', 'leg6']"
+654,Station J,Station C,TrainCo,conn_654,08:13 PM,01:04 AM,4,['leg5']
+655,Station A,Station G,ExpressLine,conn_655,01:29 AM,05:12 AM,32,"['leg95', 'leg21']"
+656,Station I,Station A,CityLink,conn_656,11:39 AM,05:16 PM,4,"['leg81', 'leg74', 'leg93']"
+657,Station A,Station B,ExpressLine,conn_657,11:07 AM,03:24 PM,64,['leg77']
+658,Station E,Station G,FastTrack,conn_658,04:12 AM,10:46 AM,1,"['leg33', 'leg19']"
+659,Station C,Station F,TrainCo,conn_659,05:57 PM,12:44 AM,8,"['leg49', 'leg9']"
+660,Station H,Station J,ExpressLine,conn_660,10:14 AM,01:18 PM,32,"['leg46', 'leg64']"
+661,Station C,Station D,FastTrack,conn_661,10:38 PM,12:48 AM,2,"['leg92', 'leg12', 'leg11']"
+662,Station G,Station J,CityLink,conn_662,05:38 PM,08:48 PM,2,"['leg59', 'leg25', 'leg81']"
+663,Station G,Station J,CityLink,conn_663,06:06 AM,08:48 AM,2,['leg7']
+664,Station E,Station A,FastTrack,conn_664,07:51 AM,10:13 AM,1,['leg58']
+665,Station E,Station G,FastTrack,conn_665,08:40 AM,03:25 PM,2,['leg80']
+666,Station C,Station G,ExpressLine,conn_666,04:09 PM,10:38 PM,4,['leg11']
+667,Station G,Station E,ExpressLine,conn_667,08:53 AM,03:47 PM,2,"['leg39', 'leg81', 'leg33']"
+668,Station I,Station G,FastTrack,conn_668,06:53 AM,11:04 AM,1,['leg57']
+669,Station D,Station H,ExpressLine,conn_669,08:57 AM,01:24 PM,64,['leg90']
+670,Station J,Station C,ExpressLine,conn_670,05:49 AM,08:31 AM,2,['leg46']
+671,Station H,Station G,CityLink,conn_671,06:10 PM,12:28 AM,4,"['leg52', 'leg11']"
+672,Station H,Station D,SuperRail,conn_672,02:33 AM,05:55 AM,2,"['leg65', 'leg51']"
+673,Station D,Station J,CityLink,conn_673,11:37 AM,02:52 PM,64,"['leg28', 'leg5']"
+674,Station A,Station H,FastTrack,conn_674,06:36 AM,11:03 AM,1,"['leg98', 'leg76']"
+675,Station B,Station J,CityLink,conn_675,06:17 PM,12:04 AM,16,['leg23']
+676,Station B,Station A,TrainCo,conn_676,10:51 AM,04:15 PM,1,"['leg76', 'leg62', 'leg43']"
+677,Station H,Station B,ExpressLine,conn_677,07:32 AM,09:47 AM,64,"['leg36', 'leg62', 'leg83']"
+678,Station C,Station G,CityLink,conn_678,11:52 PM,02:09 AM,16,"['leg25', 'leg50', 'leg17']"
+679,Station B,Station F,TrainCo,conn_679,08:07 PM,01:31 AM,1,['leg61']
+680,Station A,Station I,SuperRail,conn_680,02:31 PM,07:40 PM,16,"['leg97', 'leg44', 'leg90']"
+681,Station D,Station H,CityLink,conn_681,06:37 PM,10:22 PM,16,['leg70']
+682,Station J,Station D,FastTrack,conn_682,02:18 PM,05:03 PM,4,['leg41']
+683,Station G,Station I,TrainCo,conn_683,01:20 AM,07:55 AM,4,['leg55']
+684,Station D,Station H,TrainCo,conn_684,05:50 PM,11:43 PM,32,"['leg24', 'leg24', 'leg12']"
+685,Station F,Station H,CityLink,conn_685,09:07 AM,04:02 PM,4,"['leg52', 'leg95']"
+686,Station B,Station G,FastTrack,conn_686,11:45 PM,05:52 AM,32,['leg100']
+687,Station H,Station C,FastTrack,conn_687,07:39 AM,11:19 AM,4,"['leg34', 'leg40', 'leg77']"
+688,Station A,Station B,TrainCo,conn_688,01:48 AM,06:11 AM,1,['leg38']
+689,Station C,Station B,FastTrack,conn_689,06:46 PM,12:13 AM,8,"['leg21', 'leg29']"
+690,Station I,Station G,ExpressLine,conn_690,10:08 PM,04:59 AM,4,"['leg20', 'leg46', 'leg49']"
+691,Station F,Station J,FastTrack,conn_691,01:42 PM,07:49 PM,16,['leg52']
+692,Station A,Station E,CityLink,conn_692,10:09 PM,04:06 AM,16,"['leg23', 'leg19', 'leg67']"
+693,Station H,Station B,TrainCo,conn_693,06:24 PM,08:55 PM,8,"['leg51', 'leg24', 'leg68']"
+694,Station E,Station F,SuperRail,conn_694,05:08 AM,07:58 AM,8,['leg10']
+695,Station A,Station G,ExpressLine,conn_695,04:58 PM,10:37 PM,2,"['leg2', 'leg86']"
+696,Station H,Station F,SuperRail,conn_696,07:36 AM,02:30 PM,64,"['leg44', 'leg17', 'leg85']"
+697,Station H,Station G,SuperRail,conn_697,05:54 AM,08:59 AM,2,"['leg43', 'leg51']"
+698,Station C,Station E,CityLink,conn_698,10:52 PM,04:42 AM,1,['leg67']
+699,Station B,Station J,FastTrack,conn_699,11:02 AM,01:58 PM,32,"['leg14', 'leg96', 'leg23']"
+700,Station J,Station F,TrainCo,conn_700,04:21 PM,08:18 PM,16,['leg79']
+701,Station D,Station A,SuperRail,conn_701,03:47 AM,07:10 AM,4,['leg85']
+702,Station J,Station C,SuperRail,conn_702,03:32 AM,07:06 AM,1,"['leg96', 'leg69', 'leg42']"
+703,Station I,Station A,ExpressLine,conn_703,02:17 PM,06:31 PM,64,['leg66']
+704,Station E,Station D,ExpressLine,conn_704,01:38 PM,04:20 PM,64,['leg66']
+705,Station C,Station B,SuperRail,conn_705,01:02 AM,07:49 AM,8,"['leg55', 'leg15', 'leg70']"
+706,Station F,Station C,CityLink,conn_706,04:53 PM,10:34 PM,4,"['leg23', 'leg6', 'leg93']"
+707,Station F,Station I,FastTrack,conn_707,03:37 PM,09:46 PM,1,"['leg42', 'leg51']"
+708,Station J,Station F,FastTrack,conn_708,01:43 PM,06:32 PM,2,"['leg97', 'leg53', 'leg39']"
+709,Station A,Station J,FastTrack,conn_709,10:37 AM,04:45 PM,64,['leg60']
+710,Station I,Station H,ExpressLine,conn_710,08:19 PM,10:33 PM,4,"['leg28', 'leg67', 'leg6']"
+711,Station B,Station A,ExpressLine,conn_711,07:59 PM,02:26 AM,8,"['leg75', 'leg66', 'leg59']"
+712,Station C,Station F,SuperRail,conn_712,05:38 PM,08:22 PM,4,['leg9']
+713,Station I,Station F,CityLink,conn_713,01:35 AM,07:19 AM,4,['leg9']
+714,Station F,Station A,CityLink,conn_714,01:29 AM,04:02 AM,64,"['leg63', 'leg65']"
+715,Station F,Station I,ExpressLine,conn_715,03:03 PM,07:47 PM,32,"['leg36', 'leg14', 'leg52']"
+716,Station B,Station D,SuperRail,conn_716,10:27 PM,05:20 AM,4,"['leg99', 'leg52']"
+717,Station D,Station J,SuperRail,conn_717,01:45 PM,06:13 PM,8,"['leg43', 'leg39', 'leg69']"
+718,Station H,Station E,ExpressLine,conn_718,07:35 PM,11:31 PM,4,"['leg99', 'leg43']"
+719,Station F,Station C,FastTrack,conn_719,11:01 AM,05:27 PM,16,['leg1']
+720,Station A,Station I,ExpressLine,conn_720,04:57 PM,10:36 PM,4,['leg2']
+721,Station D,Station F,TrainCo,conn_721,08:07 AM,02:17 PM,16,"['leg17', 'leg20', 'leg52']"
+722,Station I,Station C,FastTrack,conn_722,12:23 PM,07:01 PM,1,['leg67']
+723,Station J,Station B,ExpressLine,conn_723,03:01 PM,08:32 PM,8,['leg53']
+724,Station A,Station I,FastTrack,conn_724,10:00 PM,12:12 AM,2,"['leg82', 'leg58', 'leg84']"
+725,Station B,Station A,TrainCo,conn_725,12:09 AM,04:17 AM,8,['leg15']
+726,Station A,Station D,FastTrack,conn_726,01:38 AM,06:07 AM,64,"['leg64', 'leg57']"
+727,Station A,Station E,SuperRail,conn_727,09:14 AM,03:45 PM,64,['leg52']
+728,Station G,Station F,SuperRail,conn_728,11:44 AM,04:21 PM,4,['leg90']
+729,Station J,Station B,FastTrack,conn_729,08:37 AM,01:05 PM,8,"['leg51', 'leg9']"
+730,Station H,Station I,SuperRail,conn_730,09:25 PM,12:50 AM,8,"['leg22', 'leg52']"
+731,Station F,Station G,ExpressLine,conn_731,06:28 AM,09:34 AM,4,"['leg52', 'leg100']"
+732,Station F,Station C,CityLink,conn_732,01:11 PM,05:31 PM,1,['leg94']
+733,Station F,Station G,CityLink,conn_733,11:15 PM,05:04 AM,1,"['leg81', 'leg99', 'leg11']"
+734,Station H,Station E,CityLink,conn_734,02:20 AM,06:57 AM,4,['leg87']
+735,Station J,Station G,CityLink,conn_735,06:31 PM,08:53 PM,64,['leg66']
+736,Station G,Station I,FastTrack,conn_736,12:07 AM,03:24 AM,8,"['leg97', 'leg44']"
+737,Station G,Station A,ExpressLine,conn_737,02:46 PM,07:54 PM,8,['leg27']
+738,Station G,Station J,ExpressLine,conn_738,08:04 AM,12:01 PM,16,"['leg47', 'leg74', 'leg23']"
+739,Station C,Station B,SuperRail,conn_739,07:50 PM,12:17 AM,4,"['leg36', 'leg75', 'leg41']"
+740,Station E,Station A,SuperRail,conn_740,05:37 PM,12:28 AM,1,"['leg64', 'leg94', 'leg70']"
+741,Station F,Station I,TrainCo,conn_741,10:51 AM,03:52 PM,4,"['leg97', 'leg1', 'leg61']"
+742,Station A,Station B,TrainCo,conn_742,04:16 AM,08:39 AM,8,['leg90']
+743,Station A,Station J,TrainCo,conn_743,05:29 AM,08:34 AM,16,"['leg27', 'leg39', 'leg34']"
+744,Station H,Station D,TrainCo,conn_744,01:19 AM,04:07 AM,64,"['leg44', 'leg35']"
+745,Station A,Station I,CityLink,conn_745,09:21 AM,12:52 PM,16,"['leg43', 'leg15']"
+746,Station G,Station A,ExpressLine,conn_746,09:00 PM,01:53 AM,2,"['leg88', 'leg42']"
+747,Station B,Station G,ExpressLine,conn_747,12:16 PM,03:32 PM,32,"['leg74', 'leg53', 'leg7']"
+748,Station H,Station A,CityLink,conn_748,06:45 PM,12:19 AM,1,['leg46']
+749,Station E,Station B,ExpressLine,conn_749,01:59 PM,07:32 PM,8,"['leg22', 'leg67', 'leg67']"
+750,Station D,Station H,SuperRail,conn_750,06:46 PM,09:39 PM,1,"['leg63', 'leg27']"
+751,Station J,Station I,SuperRail,conn_751,01:48 AM,07:51 AM,64,"['leg31', 'leg58', 'leg75']"
+752,Station J,Station C,CityLink,conn_752,02:51 PM,09:36 PM,1,['leg85']
+753,Station D,Station C,CityLink,conn_753,08:20 AM,10:20 AM,2,"['leg92', 'leg23']"
+754,Station J,Station I,ExpressLine,conn_754,07:40 AM,01:47 PM,8,['leg55']
+755,Station D,Station C,ExpressLine,conn_755,06:56 PM,01:14 AM,4,"['leg20', 'leg17']"
+756,Station G,Station E,CityLink,conn_756,04:17 AM,09:57 AM,1,"['leg71', 'leg10', 'leg43']"
+757,Station A,Station H,TrainCo,conn_757,04:49 PM,09:03 PM,16,['leg14']
+758,Station G,Station H,SuperRail,conn_758,05:56 AM,08:42 AM,4,['leg80']
+759,Station H,Station D,TrainCo,conn_759,03:11 AM,08:22 AM,4,"['leg87', 'leg40']"
+760,Station I,Station H,ExpressLine,conn_760,03:31 AM,07:38 AM,4,"['leg66', 'leg52']"
+761,Station A,Station G,CityLink,conn_761,04:05 PM,07:54 PM,4,"['leg24', 'leg10', 'leg55']"
+762,Station E,Station J,FastTrack,conn_762,12:58 PM,06:35 PM,4,"['leg81', 'leg63', 'leg4']"
+763,Station G,Station H,SuperRail,conn_763,03:16 PM,07:08 PM,2,['leg88']
+764,Station B,Station C,CityLink,conn_764,05:05 AM,07:29 AM,1,"['leg2', 'leg56', 'leg5']"
+765,Station B,Station G,SuperRail,conn_765,11:25 AM,04:19 PM,64,"['leg76', 'leg49', 'leg100']"
+766,Station B,Station C,CityLink,conn_766,07:46 AM,01:06 PM,32,['leg14']
+767,Station H,Station F,ExpressLine,conn_767,03:59 PM,07:03 PM,8,"['leg85', 'leg51']"
+768,Station G,Station C,ExpressLine,conn_768,04:18 AM,09:54 AM,8,"['leg5', 'leg91', 'leg43']"
+769,Station J,Station E,FastTrack,conn_769,12:18 PM,02:43 PM,32,"['leg20', 'leg10', 'leg2']"
+770,Station E,Station D,CityLink,conn_770,05:55 AM,10:46 AM,2,"['leg65', 'leg65', 'leg48']"
+771,Station H,Station I,FastTrack,conn_771,05:24 AM,11:02 AM,32,"['leg22', 'leg91', 'leg72']"
+772,Station H,Station E,SuperRail,conn_772,07:15 PM,10:15 PM,8,"['leg54', 'leg45']"
+773,Station C,Station J,ExpressLine,conn_773,02:20 PM,05:09 PM,32,['leg68']
+774,Station E,Station F,FastTrack,conn_774,06:45 PM,12:22 AM,8,"['leg61', 'leg80', 'leg27']"
+775,Station A,Station E,SuperRail,conn_775,04:40 PM,08:23 PM,1,"['leg41', 'leg74', 'leg53']"
+776,Station H,Station D,CityLink,conn_776,10:02 AM,01:36 PM,1,"['leg88', 'leg13']"
+777,Station F,Station C,SuperRail,conn_777,03:43 PM,05:43 PM,8,['leg97']
+778,Station A,Station C,TrainCo,conn_778,08:19 AM,11:58 AM,1,"['leg93', 'leg92', 'leg96']"
+779,Station J,Station F,TrainCo,conn_779,09:21 PM,11:29 PM,8,"['leg14', 'leg9', 'leg84']"
+780,Station E,Station J,CityLink,conn_780,07:18 AM,09:56 AM,64,"['leg64', 'leg59', 'leg88']"
+781,Station E,Station B,FastTrack,conn_781,04:10 AM,06:12 AM,32,"['leg42', 'leg21']"
+782,Station H,Station J,ExpressLine,conn_782,11:33 PM,05:37 AM,1,['leg71']
+783,Station G,Station J,SuperRail,conn_783,05:49 AM,12:01 PM,2,"['leg97', 'leg72']"
+784,Station B,Station I,FastTrack,conn_784,06:00 PM,10:23 PM,1,"['leg21', 'leg19']"
+785,Station E,Station H,CityLink,conn_785,05:51 AM,09:26 AM,8,"['leg90', 'leg8', 'leg7']"
+786,Station A,Station J,FastTrack,conn_786,03:24 PM,09:09 PM,64,"['leg58', 'leg95', 'leg55']"
+787,Station G,Station D,CityLink,conn_787,02:33 PM,04:40 PM,1,"['leg54', 'leg55', 'leg68']"
+788,Station D,Station I,SuperRail,conn_788,11:11 AM,01:27 PM,2,['leg87']
+789,Station E,Station I,FastTrack,conn_789,11:06 PM,03:14 AM,2,"['leg44', 'leg11']"
+790,Station H,Station J,FastTrack,conn_790,08:01 PM,01:55 AM,1,['leg87']
+791,Station B,Station A,SuperRail,conn_791,06:51 AM,09:22 AM,64,['leg61']
+792,Station G,Station I,SuperRail,conn_792,01:32 PM,04:01 PM,4,['leg44']
+793,Station J,Station C,CityLink,conn_793,04:50 PM,09:35 PM,1,"['leg5', 'leg9']"
+794,Station G,Station B,CityLink,conn_794,01:15 PM,06:51 PM,2,"['leg88', 'leg37', 'leg71']"
+795,Station I,Station C,CityLink,conn_795,10:06 PM,02:08 AM,32,"['leg28', 'leg20', 'leg20']"
+796,Station E,Station J,TrainCo,conn_796,08:16 AM,01:29 PM,16,"['leg40', 'leg11']"
+797,Station C,Station H,CityLink,conn_797,09:57 AM,01:25 PM,2,"['leg9', 'leg52', 'leg34']"
+798,Station D,Station G,FastTrack,conn_798,07:19 AM,11:02 AM,16,"['leg89', 'leg20', 'leg9']"
+799,Station H,Station E,TrainCo,conn_799,11:08 AM,04:15 PM,32,"['leg56', 'leg10', 'leg71']"
+800,Station I,Station G,TrainCo,conn_800,08:23 PM,11:04 PM,4,"['leg81', 'leg63']"
+801,Station E,Station J,FastTrack,conn_801,05:28 PM,11:33 PM,64,"['leg32', 'leg22', 'leg58']"
+802,Station F,Station J,TrainCo,conn_802,12:01 PM,02:03 PM,8,"['leg26', 'leg76', 'leg17']"
+803,Station D,Station H,SuperRail,conn_803,10:22 PM,02:11 AM,64,"['leg61', 'leg27']"
+804,Station F,Station D,TrainCo,conn_804,08:40 AM,11:26 AM,2,['leg17']
+805,Station H,Station A,TrainCo,conn_805,11:24 PM,02:32 AM,64,['leg96']
+806,Station E,Station H,ExpressLine,conn_806,04:17 PM,08:43 PM,2,"['leg89', 'leg1']"
+807,Station J,Station G,ExpressLine,conn_807,09:52 PM,01:06 AM,2,"['leg38', 'leg4']"
+808,Station J,Station B,ExpressLine,conn_808,01:38 AM,05:27 AM,8,"['leg71', 'leg94']"
+809,Station A,Station J,ExpressLine,conn_809,08:56 AM,03:07 PM,2,"['leg46', 'leg76']"
+810,Station G,Station J,FastTrack,conn_810,11:08 AM,04:25 PM,32,"['leg98', 'leg5', 'leg24']"
+811,Station B,Station A,FastTrack,conn_811,02:43 AM,05:35 AM,8,"['leg6', 'leg50', 'leg10']"
+812,Station G,Station J,SuperRail,conn_812,04:56 PM,10:52 PM,2,"['leg98', 'leg19']"
+813,Station J,Station B,FastTrack,conn_813,05:59 PM,12:57 AM,1,"['leg57', 'leg6', 'leg80']"
+814,Station B,Station J,SuperRail,conn_814,08:06 PM,02:19 AM,1,['leg71']
+815,Station H,Station D,ExpressLine,conn_815,06:18 AM,09:33 AM,4,['leg97']
+816,Station C,Station E,FastTrack,conn_816,05:03 AM,08:35 AM,2,"['leg25', 'leg99']"
+817,Station H,Station G,CityLink,conn_817,06:10 PM,09:35 PM,16,"['leg1', 'leg24']"
+818,Station B,Station F,SuperRail,conn_818,04:08 AM,08:36 AM,4,"['leg48', 'leg40', 'leg4']"
+819,Station G,Station B,SuperRail,conn_819,11:09 PM,02:37 AM,64,"['leg72', 'leg59', 'leg56']"
+820,Station F,Station C,SuperRail,conn_820,03:49 AM,07:32 AM,16,"['leg94', 'leg20']"
+821,Station F,Station A,TrainCo,conn_821,02:26 AM,05:00 AM,4,['leg12']
+822,Station H,Station G,FastTrack,conn_822,01:35 PM,06:16 PM,8,['leg10']
+823,Station J,Station D,CityLink,conn_823,09:47 PM,12:43 AM,4,"['leg79', 'leg51']"
+824,Station E,Station B,ExpressLine,conn_824,08:03 AM,10:56 AM,4,['leg44']
+825,Station G,Station A,SuperRail,conn_825,08:19 AM,02:38 PM,2,['leg71']
+826,Station D,Station I,SuperRail,conn_826,04:51 PM,10:56 PM,64,"['leg97', 'leg7', 'leg35']"
+827,Station G,Station A,FastTrack,conn_827,06:50 AM,11:01 AM,32,['leg15']
+828,Station F,Station I,CityLink,conn_828,08:04 PM,11:36 PM,64,"['leg66', 'leg14']"
+829,Station D,Station F,TrainCo,conn_829,09:35 AM,12:49 PM,8,['leg97']
+830,Station J,Station H,SuperRail,conn_830,06:25 AM,08:48 AM,1,"['leg33', 'leg36', 'leg78']"
+831,Station B,Station J,TrainCo,conn_831,02:48 AM,05:00 AM,1,"['leg70', 'leg73', 'leg49']"
+832,Station C,Station H,CityLink,conn_832,07:19 PM,11:22 PM,32,"['leg17', 'leg28']"
+833,Station G,Station J,ExpressLine,conn_833,10:59 AM,05:37 PM,1,"['leg8', 'leg57']"
+834,Station F,Station J,ExpressLine,conn_834,08:13 PM,02:08 AM,2,"['leg64', 'leg11']"
+835,Station C,Station G,CityLink,conn_835,12:51 PM,03:56 PM,1,"['leg42', 'leg65']"
+836,Station H,Station E,ExpressLine,conn_836,03:34 PM,06:24 PM,4,"['leg44', 'leg49']"
+837,Station B,Station A,TrainCo,conn_837,07:55 PM,10:41 PM,1,"['leg65', 'leg41', 'leg50']"
+838,Station A,Station I,SuperRail,conn_838,04:12 PM,09:08 PM,64,['leg97']
+839,Station C,Station B,ExpressLine,conn_839,08:38 AM,11:41 AM,64,"['leg29', 'leg18']"
+840,Station G,Station H,TrainCo,conn_840,02:15 PM,06:12 PM,1,['leg40']
+841,Station B,Station D,ExpressLine,conn_841,04:55 PM,11:53 PM,2,['leg17']
+842,Station F,Station D,SuperRail,conn_842,06:46 AM,10:52 AM,64,"['leg76', 'leg66', 'leg7']"
+843,Station F,Station J,SuperRail,conn_843,12:43 AM,03:21 AM,8,"['leg93', 'leg51']"
+844,Station G,Station J,CityLink,conn_844,03:32 AM,07:00 AM,64,"['leg46', 'leg56', 'leg87']"
+845,Station D,Station F,FastTrack,conn_845,11:29 AM,04:52 PM,16,"['leg65', 'leg43']"
+846,Station I,Station J,CityLink,conn_846,11:39 AM,06:32 PM,32,"['leg93', 'leg87']"
+847,Station F,Station E,TrainCo,conn_847,11:28 AM,03:10 PM,4,"['leg29', 'leg36', 'leg53']"
+848,Station C,Station G,CityLink,conn_848,11:28 AM,05:57 PM,32,"['leg99', 'leg76']"
+849,Station B,Station H,FastTrack,conn_849,08:26 AM,12:37 PM,1,"['leg51', 'leg74']"
+850,Station I,Station A,SuperRail,conn_850,10:10 AM,04:52 PM,32,"['leg60', 'leg98']"
+851,Station G,Station F,FastTrack,conn_851,12:29 PM,03:25 PM,32,"['leg87', 'leg27']"
+852,Station A,Station B,CityLink,conn_852,08:30 PM,01:16 AM,64,"['leg65', 'leg42', 'leg10']"
+853,Station G,Station H,TrainCo,conn_853,05:02 PM,07:13 PM,8,"['leg70', 'leg99']"
+854,Station C,Station H,CityLink,conn_854,06:25 PM,09:20 PM,4,"['leg32', 'leg49']"
+855,Station E,Station G,SuperRail,conn_855,04:24 AM,09:52 AM,1,"['leg90', 'leg6']"
+856,Station F,Station J,SuperRail,conn_856,05:13 AM,10:24 AM,2,"['leg8', 'leg18']"
+857,Station B,Station C,CityLink,conn_857,04:03 AM,08:22 AM,4,"['leg31', 'leg27', 'leg21']"
+858,Station F,Station C,SuperRail,conn_858,07:57 PM,10:46 PM,32,"['leg98', 'leg93', 'leg75']"
+859,Station B,Station A,SuperRail,conn_859,08:22 PM,02:48 AM,2,['leg79']
+860,Station I,Station F,TrainCo,conn_860,05:57 AM,10:12 AM,1,"['leg33', 'leg80']"
+861,Station G,Station D,CityLink,conn_861,05:35 PM,10:42 PM,2,['leg100']
+862,Station F,Station D,TrainCo,conn_862,06:15 PM,12:21 AM,16,"['leg91', 'leg53']"
+863,Station A,Station B,SuperRail,conn_863,02:00 PM,07:48 PM,8,"['leg45', 'leg38']"
+864,Station G,Station I,SuperRail,conn_864,01:10 PM,05:54 PM,64,"['leg46', 'leg3', 'leg78']"
+865,Station I,Station G,TrainCo,conn_865,08:36 PM,12:56 AM,64,"['leg38', 'leg46', 'leg10']"
+866,Station I,Station B,CityLink,conn_866,10:39 PM,03:07 AM,64,"['leg1', 'leg49', 'leg93']"
+867,Station I,Station B,FastTrack,conn_867,06:41 AM,10:19 AM,32,['leg45']
+868,Station H,Station A,ExpressLine,conn_868,07:46 AM,10:50 AM,8,['leg13']
+869,Station B,Station C,TrainCo,conn_869,06:06 PM,11:00 PM,4,['leg22']
+870,Station F,Station G,SuperRail,conn_870,09:26 PM,11:28 PM,64,"['leg37', 'leg53']"
+871,Station J,Station F,SuperRail,conn_871,11:05 PM,01:13 AM,4,"['leg48', 'leg51', 'leg12']"
+872,Station D,Station G,CityLink,conn_872,10:44 PM,03:28 AM,32,"['leg53', 'leg96']"
+873,Station H,Station J,SuperRail,conn_873,04:29 PM,07:02 PM,32,"['leg16', 'leg36']"
+874,Station C,Station H,SuperRail,conn_874,02:35 AM,09:17 AM,32,['leg31']
+875,Station G,Station B,FastTrack,conn_875,10:34 PM,04:14 AM,1,"['leg19', 'leg73', 'leg87']"
+876,Station I,Station B,TrainCo,conn_876,09:52 AM,12:06 PM,2,"['leg88', 'leg49']"
+877,Station D,Station H,FastTrack,conn_877,07:15 PM,11:27 PM,8,"['leg22', 'leg79', 'leg96']"
+878,Station I,Station G,SuperRail,conn_878,08:53 AM,11:09 AM,1,['leg80']
+879,Station E,Station A,FastTrack,conn_879,01:26 PM,07:12 PM,1,"['leg35', 'leg29']"
+880,Station C,Station B,TrainCo,conn_880,09:29 AM,02:21 PM,32,"['leg89', 'leg70']"
+881,Station B,Station A,CityLink,conn_881,09:23 AM,12:49 PM,4,"['leg78', 'leg85']"
+882,Station A,Station C,CityLink,conn_882,11:31 PM,05:13 AM,16,"['leg61', 'leg1']"
+883,Station C,Station B,ExpressLine,conn_883,09:22 AM,11:32 AM,8,"['leg17', 'leg37', 'leg92']"
+884,Station D,Station F,FastTrack,conn_884,11:46 PM,02:26 AM,16,"['leg84', 'leg9', 'leg38']"
+885,Station D,Station E,SuperRail,conn_885,01:25 PM,04:37 PM,1,"['leg71', 'leg11']"
+886,Station I,Station B,TrainCo,conn_886,02:03 AM,08:15 AM,1,['leg90']
+887,Station E,Station F,ExpressLine,conn_887,01:49 AM,08:02 AM,32,"['leg64', 'leg32', 'leg70']"
+888,Station H,Station J,SuperRail,conn_888,07:07 PM,11:11 PM,1,"['leg70', 'leg46', 'leg90']"
+889,Station G,Station H,FastTrack,conn_889,05:08 PM,08:30 PM,64,"['leg33', 'leg25']"
+890,Station D,Station J,SuperRail,conn_890,01:08 PM,05:53 PM,4,"['leg97', 'leg48', 'leg68']"
+891,Station F,Station A,SuperRail,conn_891,12:32 AM,04:51 AM,64,['leg49']
+892,Station F,Station G,TrainCo,conn_892,03:47 AM,07:23 AM,2,"['leg30', 'leg87']"
+893,Station H,Station F,ExpressLine,conn_893,04:18 PM,09:59 PM,16,"['leg67', 'leg66']"
+894,Station E,Station A,ExpressLine,conn_894,11:51 AM,05:11 PM,64,"['leg21', 'leg5', 'leg70']"
+895,Station G,Station C,ExpressLine,conn_895,02:45 AM,05:24 AM,32,"['leg33', 'leg91', 'leg64']"
+896,Station G,Station B,FastTrack,conn_896,08:49 PM,12:14 AM,32,"['leg12', 'leg42', 'leg99']"
+897,Station A,Station F,FastTrack,conn_897,09:09 PM,12:05 AM,32,"['leg24', 'leg91']"
+898,Station J,Station H,CityLink,conn_898,04:51 PM,07:42 PM,1,"['leg77', 'leg7', 'leg73']"
+899,Station I,Station A,TrainCo,conn_899,06:08 AM,12:42 PM,2,"['leg78', 'leg27']"
+900,Station E,Station D,CityLink,conn_900,01:04 AM,04:27 AM,16,"['leg52', 'leg32', 'leg16']"
+901,Station A,Station H,ExpressLine,conn_901,02:34 PM,07:55 PM,1,"['leg73', 'leg22', 'leg92']"
+902,Station G,Station I,ExpressLine,conn_902,12:40 AM,06:58 AM,2,"['leg85', 'leg32', 'leg29']"
+903,Station A,Station H,SuperRail,conn_903,09:22 PM,03:27 AM,4,['leg6']
+904,Station E,Station D,CityLink,conn_904,01:44 PM,04:12 PM,64,"['leg64', 'leg88']"
+905,Station D,Station C,FastTrack,conn_905,10:32 PM,04:56 AM,16,"['leg49', 'leg71', 'leg72']"
+906,Station J,Station I,CityLink,conn_906,08:13 PM,03:02 AM,2,"['leg82', 'leg92']"
+907,Station I,Station J,FastTrack,conn_907,06:51 AM,09:44 AM,8,['leg67']
+908,Station I,Station G,CityLink,conn_908,10:24 PM,03:37 AM,1,"['leg64', 'leg65']"
+909,Station D,Station B,CityLink,conn_909,12:32 PM,03:09 PM,64,['leg13']
+910,Station H,Station G,SuperRail,conn_910,06:12 PM,08:53 PM,64,"['leg19', 'leg13', 'leg18']"
+911,Station H,Station F,ExpressLine,conn_911,06:01 AM,12:31 PM,8,"['leg46', 'leg48']"
+912,Station H,Station G,SuperRail,conn_912,09:41 PM,01:14 AM,2,['leg38']
+913,Station H,Station F,FastTrack,conn_913,12:07 PM,04:37 PM,8,['leg19']
+914,Station C,Station F,TrainCo,conn_914,01:00 PM,04:01 PM,1,"['leg47', 'leg34']"
+915,Station E,Station F,SuperRail,conn_915,01:37 AM,04:07 AM,4,['leg29']
+916,Station G,Station E,CityLink,conn_916,06:29 PM,08:45 PM,32,"['leg71', 'leg86', 'leg99']"
+917,Station H,Station A,TrainCo,conn_917,06:31 AM,10:43 AM,32,"['leg63', 'leg56', 'leg46']"
+918,Station H,Station A,CityLink,conn_918,06:31 PM,11:07 PM,32,"['leg19', 'leg64']"
+919,Station H,Station F,TrainCo,conn_919,08:27 AM,11:37 AM,64,"['leg91', 'leg6']"
+920,Station A,Station G,SuperRail,conn_920,01:50 PM,05:58 PM,64,['leg7']
+921,Station E,Station A,FastTrack,conn_921,11:22 PM,02:57 AM,32,"['leg14', 'leg67', 'leg71']"
+922,Station B,Station D,FastTrack,conn_922,08:35 AM,02:43 PM,2,"['leg95', 'leg26']"
+923,Station I,Station A,CityLink,conn_923,05:27 PM,08:31 PM,2,"['leg17', 'leg91']"
+924,Station G,Station E,FastTrack,conn_924,04:43 PM,09:48 PM,2,['leg19']
+925,Station D,Station H,TrainCo,conn_925,06:16 PM,10:45 PM,64,"['leg77', 'leg35']"
+926,Station F,Station A,ExpressLine,conn_926,09:12 AM,11:25 AM,4,"['leg95', 'leg26', 'leg29']"
+927,Station I,Station J,CityLink,conn_927,08:47 PM,11:22 PM,1,['leg4']
+928,Station D,Station E,FastTrack,conn_928,06:49 AM,09:21 AM,16,"['leg14', 'leg50', 'leg32']"
+929,Station C,Station H,FastTrack,conn_929,02:20 AM,05:35 AM,8,"['leg97', 'leg9', 'leg76']"
+930,Station I,Station E,ExpressLine,conn_930,05:25 PM,10:12 PM,1,"['leg100', 'leg82', 'leg92']"
+931,Station G,Station I,SuperRail,conn_931,12:00 PM,04:35 PM,2,"['leg20', 'leg54']"
+932,Station I,Station E,ExpressLine,conn_932,11:22 PM,03:00 AM,1,['leg97']
+933,Station E,Station D,SuperRail,conn_933,08:10 PM,02:36 AM,8,"['leg43', 'leg10', 'leg43']"
+934,Station H,Station B,FastTrack,conn_934,06:50 PM,01:42 AM,16,"['leg91', 'leg3', 'leg7']"
+935,Station E,Station C,SuperRail,conn_935,03:56 PM,10:04 PM,2,"['leg3', 'leg25', 'leg39']"
+936,Station J,Station B,FastTrack,conn_936,06:25 PM,12:12 AM,2,"['leg2', 'leg52', 'leg66']"
+937,Station G,Station E,CityLink,conn_937,12:29 PM,03:17 PM,64,['leg39']
+938,Station J,Station B,TrainCo,conn_938,01:58 PM,05:50 PM,8,['leg45']
+939,Station C,Station E,CityLink,conn_939,11:38 PM,05:53 AM,4,"['leg86', 'leg5']"
+940,Station F,Station E,TrainCo,conn_940,12:30 PM,06:31 PM,8,['leg94']
+941,Station J,Station H,ExpressLine,conn_941,09:27 AM,02:17 PM,1,"['leg88', 'leg71']"
+942,Station E,Station G,FastTrack,conn_942,03:41 PM,07:59 PM,8,"['leg19', 'leg23', 'leg20']"
+943,Station G,Station I,TrainCo,conn_943,03:21 AM,08:26 AM,1,"['leg94', 'leg86']"
+944,Station H,Station C,FastTrack,conn_944,01:33 AM,05:29 AM,8,"['leg8', 'leg72']"
+945,Station H,Station I,TrainCo,conn_945,04:11 AM,10:56 AM,2,"['leg76', 'leg16']"
+946,Station A,Station I,FastTrack,conn_946,01:56 PM,04:30 PM,32,"['leg94', 'leg36']"
+947,Station D,Station I,SuperRail,conn_947,10:01 PM,12:19 AM,8,['leg75']
+948,Station H,Station F,ExpressLine,conn_948,11:22 PM,02:50 AM,1,"['leg47', 'leg49']"
+949,Station I,Station C,ExpressLine,conn_949,05:58 PM,12:29 AM,8,"['leg19', 'leg98', 'leg69']"
+950,Station H,Station I,SuperRail,conn_950,03:34 PM,08:45 PM,4,['leg47']
+951,Station A,Station D,ExpressLine,conn_951,03:43 AM,08:08 AM,1,"['leg63', 'leg11', 'leg60']"
+952,Station E,Station J,CityLink,conn_952,12:25 PM,05:29 PM,1,['leg40']
+953,Station F,Station I,ExpressLine,conn_953,04:33 PM,08:55 PM,32,"['leg7', 'leg77']"
+954,Station G,Station C,TrainCo,conn_954,04:51 PM,11:40 PM,8,"['leg41', 'leg24', 'leg40']"
+955,Station H,Station C,CityLink,conn_955,07:58 AM,10:54 AM,64,"['leg38', 'leg21']"
+956,Station G,Station C,SuperRail,conn_956,06:05 AM,09:36 AM,32,"['leg11', 'leg3', 'leg14']"
+957,Station B,Station G,TrainCo,conn_957,05:31 PM,09:38 PM,2,"['leg76', 'leg28', 'leg64']"
+958,Station I,Station A,CityLink,conn_958,10:46 AM,04:03 PM,4,"['leg67', 'leg66', 'leg72']"
+959,Station C,Station E,ExpressLine,conn_959,10:57 AM,03:33 PM,1,['leg66']
+960,Station H,Station I,FastTrack,conn_960,07:08 AM,12:20 PM,8,"['leg90', 'leg50', 'leg63']"
+961,Station J,Station I,CityLink,conn_961,08:03 PM,10:48 PM,32,"['leg68', 'leg93']"
+962,Station G,Station I,SuperRail,conn_962,12:07 AM,06:59 AM,8,"['leg33', 'leg46', 'leg41']"
+963,Station F,Station I,ExpressLine,conn_963,01:47 PM,04:04 PM,4,"['leg85', 'leg21']"
+964,Station J,Station I,TrainCo,conn_964,06:54 PM,11:24 PM,8,['leg27']
+965,Station C,Station I,FastTrack,conn_965,10:39 PM,04:37 AM,32,"['leg12', 'leg69']"
+966,Station J,Station G,SuperRail,conn_966,03:44 AM,07:25 AM,8,['leg8']
+967,Station A,Station G,FastTrack,conn_967,12:58 PM,07:57 PM,16,"['leg99', 'leg86', 'leg33']"
+968,Station B,Station I,FastTrack,conn_968,11:01 PM,02:44 AM,64,['leg1']
+969,Station B,Station E,SuperRail,conn_969,01:51 AM,06:32 AM,2,"['leg76', 'leg64']"
+970,Station J,Station E,SuperRail,conn_970,01:09 PM,03:23 PM,4,"['leg24', 'leg73', 'leg36']"
+971,Station H,Station F,ExpressLine,conn_971,08:12 AM,11:58 AM,2,['leg23']
+972,Station A,Station D,ExpressLine,conn_972,07:12 AM,10:14 AM,4,"['leg21', 'leg32']"
+973,Station I,Station C,SuperRail,conn_973,12:14 PM,02:32 PM,16,"['leg25', 'leg55', 'leg73']"
+974,Station I,Station G,SuperRail,conn_974,01:19 AM,07:01 AM,16,"['leg27', 'leg5']"
+975,Station J,Station C,TrainCo,conn_975,06:26 PM,11:33 PM,4,['leg85']
+976,Station G,Station I,ExpressLine,conn_976,03:31 PM,08:19 PM,16,['leg48']
+977,Station A,Station E,TrainCo,conn_977,04:38 AM,10:34 AM,64,"['leg28', 'leg99', 'leg52']"
+978,Station I,Station J,SuperRail,conn_978,03:01 AM,08:19 AM,64,"['leg56', 'leg46']"
+979,Station F,Station H,FastTrack,conn_979,03:49 PM,06:12 PM,16,"['leg59', 'leg97']"
+980,Station D,Station I,FastTrack,conn_980,01:26 AM,05:47 AM,16,"['leg2', 'leg48']"
+981,Station C,Station I,FastTrack,conn_981,10:21 PM,04:24 AM,2,['leg1']
+982,Station F,Station D,ExpressLine,conn_982,08:56 AM,12:08 PM,8,"['leg19', 'leg23']"
+983,Station B,Station C,ExpressLine,conn_983,08:25 AM,02:07 PM,32,"['leg5', 'leg62']"
+984,Station I,Station E,ExpressLine,conn_984,07:21 PM,02:05 AM,1,"['leg19', 'leg51']"
+985,Station H,Station C,FastTrack,conn_985,03:30 AM,08:21 AM,8,['leg45']
+986,Station C,Station E,FastTrack,conn_986,04:16 AM,08:25 AM,2,"['leg5', 'leg85', 'leg8']"
+987,Station C,Station J,ExpressLine,conn_987,06:26 PM,11:15 PM,8,['leg75']
+988,Station H,Station B,SuperRail,conn_988,12:33 PM,03:20 PM,8,"['leg5', 'leg35', 'leg63']"
+989,Station I,Station C,TrainCo,conn_989,12:58 PM,07:43 PM,2,"['leg95', 'leg52']"
+990,Station F,Station H,CityLink,conn_990,05:20 PM,07:56 PM,2,['leg12']
+991,Station I,Station J,TrainCo,conn_991,01:23 PM,06:01 PM,64,['leg98']
+992,Station G,Station F,CityLink,conn_992,11:13 AM,01:40 PM,2,['leg52']
+993,Station G,Station I,TrainCo,conn_993,07:11 AM,01:01 PM,4,"['leg86', 'leg44']"
+994,Station G,Station H,ExpressLine,conn_994,02:28 PM,07:42 PM,1,['leg14']
+995,Station E,Station F,TrainCo,conn_995,06:14 AM,09:19 AM,32,['leg62']
+996,Station E,Station I,TrainCo,conn_996,12:10 PM,05:08 PM,64,['leg51']
+997,Station A,Station I,FastTrack,conn_997,04:17 PM,10:47 PM,4,"['leg20', 'leg29']"
+998,Station D,Station E,SuperRail,conn_998,01:45 AM,03:55 AM,8,['leg25']
+999,Station D,Station E,TrainCo,conn_999,11:06 PM,04:42 AM,8,"['leg46', 'leg20', 'leg26']"
+1000,Station J,Station D,TrainCo,conn_1000,02:24 PM,09:12 PM,64,"['leg67', 'leg9']"
